@@ -1,0 +1,66 @@
+﻿@using System;
+@using System.Collections;
+
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    var homePageMenu = Umbraco.Content(CurrentPage._siteMenu);
+}
+
+@if (homePageMenu.Children.Any())
+{    
+    var naviLevel = homePageMenu.Children.First().Level;    
+    <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+    
+        @foreach (var childPage in homePageMenu.Children)
+        {
+            var link = "javascript:void(0)";
+            dynamic targetItem = null;
+            if (childPage.menuLinkItem != null && !string.IsNullOrEmpty(childPage.menuLinkItem.ToString()))
+            {
+                targetItem = Umbraco.Content(childPage.menuLinkItem);
+                link = targetItem.Url;
+            }
+            var isActive = targetItem != null ? targetItem.IsAncestorOrSelf(CurrentPage) : false;
+            if (childPage.Children.Any())
+            {
+                <li class="@(isActive ? "active" : null)">
+                    <a title="@childPage.menuTitle" href='@link'>@childPage.menuTitle</a>
+                    @childPages(childPage.Children)
+                </li>
+            }
+            else
+            {
+                <li class="@(isActive ? "active" : null)">
+                    <a href='@link'>@childPage.menuTitle</a>
+                    @childPages(childPage.Children)
+                </li>
+            }
+        }
+    </ul>
+}
+
+@helper childPages(dynamic pages)
+{    
+    if (pages.Any())
+    {            
+        <ul >
+            @foreach (var page in pages)
+            {
+                var link = page.menuLinkItem != null ? Umbraco.Content(page.menuLinkItem).Url : "javascript:void(0)";
+                if (page.Children.Any())
+                {
+                    <li>
+                        <a class="font-size-16" href="@link">@page.menuTitle</a>
+                        @childPages(page.Children)
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <a href="@link">@page.menuTitle</a>
+                    </li>
+                }
+            }
+        </ul>
+    }
+}

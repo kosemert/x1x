@@ -1,0 +1,45 @@
+﻿@using System;
+@using System.Collections;
+
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    var carousel = CurrentPage.siteBanner != null ? Umbraco.Content(CurrentPage.siteBanner) : null;
+}
+
+@if (carousel != null && carousel.Children.Any())
+{
+    <div class="slider_wrapper">
+        <div id="head_panel_slider" class="owl-carousel">
+            @foreach (var slider in carousel.Children)
+            {
+                <div class="stretchy-wrapper ratio_slider">
+                    <div style="background-image: url('@slider.GetCropUrl("carouselImage","Carousel")');" aria-hidden="true" class="item">
+                        <div class="container">
+                            <div class="caption caption-right caption-fancy">
+                                <div class="inner animated bounceInUp">
+                                    <div class="t1">@slider.carouselTitle</div>
+                                    @if(!string.IsNullOrEmpty(slider.carouselSubTitle))
+                                    {
+                                        <div class="t2 uppercase">@slider.carouselSubTitle</div>
+                                    }                                    
+                                    <p class="desc hidden-xxs">
+                                        @slider.carouselText
+                                    </p>
+                                    
+                                    @if (slider.carouselLink != null && !string.IsNullOrEmpty(slider.carouselLink.ToString()))
+                                    {
+                                        <a href="@Umbraco.Content(slider.carouselLink).Url" class="btn btn-primary">@slider.carouselLinkText</a>
+                                    }
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            }
+        </div>
+    </div>
+}

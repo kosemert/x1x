@@ -1,0 +1,101 @@
+﻿@using UmbBase.Web.Business;
+@using System.Web.Mvc;
+@using System.Threading;
+@using System.Globalization;
+
+@functions{
+    public static WebViewPage page = (PageContext.Page as WebViewPage);
+    public static HtmlHelper<object> html = page.Html;
+    public static Umbraco.Web.UmbracoHelper umbracoHelper = new Umbraco.Web.UmbracoHelper(Umbraco.Web.UmbracoContext.Current);
+
+    public static dynamic GetAllCategoriesForCurrentLanguage()
+    {
+        var trCulture = new CultureInfo("tr-TR");
+        var enCulture = new CultureInfo("en-US");
+        dynamic categoryRoot = null;
+        if (Thread.CurrentThread.CurrentCulture.Equals(enCulture))
+        {
+            categoryRoot = umbracoHelper.Content(ApplicationConstants.EnCategoriesRootId);
+        }
+        else
+        {
+            categoryRoot = umbracoHelper.Content(ApplicationConstants.TrCategoriesRootId);
+        }
+
+        if (categoryRoot != null && categoryRoot.Children.Any())
+        {
+            return categoryRoot.Children;
+        }
+        return null;
+    }
+
+    public static dynamic GetAllProjectsForCategory(string categoryName)
+    {
+        var trCulture = new CultureInfo("tr-TR");
+        var enCulture = new CultureInfo("en-US");
+        dynamic projectRoot = null;
+
+
+        if (Thread.CurrentThread.CurrentCulture.Equals(enCulture))
+        {
+            projectRoot = umbracoHelper.Content(ApplicationConstants.EnProjectsRootId);
+        }
+        else
+        {
+            projectRoot = umbracoHelper.Content(ApplicationConstants.TrProjectsRootId);
+        }
+
+        if (projectRoot != null && projectRoot.Children.Any())
+        {
+            if (!string.IsNullOrEmpty(categoryName))
+            {
+                var categoryNode = GetAllCategoriesForCurrentLanguage().Where("categoryName == \"" + categoryName + "\"").FirstOrDefault();
+                if (categoryNode != null)
+                {
+                    return projectRoot.DescendantsOrSelf(ApplicationConstants.ProjectDocumentAlias).Where("categories.Contains(\"" + categoryNode.Id + "\")");
+                }
+            }
+            else
+            {
+                return projectRoot.DescendantsOrSelf(ApplicationConstants.ProjectDocumentAlias);
+            }
+
+        }
+        return null;
+    }
+
+    public static dynamic GetAllSubProjects(dynamic projectFolder, int count)
+    {
+
+        if (projectFolder != null )
+        {
+            return projectFolder.DescendantsOrSelf(ApplicationConstants.ProjectDocumentAlias).Where("Visible").OrderBy(ApplicationConstants.ContentPagePublishDateFieldAlias + " desc").Take(count);
+        }
+
+        return null;
+    }
+
+
+
+    public static string CreateCategoryListUrl(string categoryName)
+    {
+        var trCulture = new CultureInfo("tr-TR");
+        var enCulture = new CultureInfo("en-US");
+        if (Thread.CurrentThread.CurrentCulture.Equals(trCulture))
+        {
+            return string.Format("/tr/kategori/{0}", categoryName);
+        }
+        return "/error";
+    }
+
+    public static string CreateAllCategoryListUrl()
+    {
+        var trCulture = new CultureInfo("tr-TR");
+        var enCulture = new CultureInfo("en-US");
+        if (Thread.CurrentThread.CurrentCulture.Equals(trCulture))
+        {
+            return "/tr/tum-kategoriler";
+        }
+        return "/error";
+    }
+}

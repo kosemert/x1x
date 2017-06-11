@@ -1,0 +1,52 @@
+﻿@using UmbBase.Web.Business
+@using Umbraco.Web.Models
+
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+@{
+    { Html.RenderPartial("PageBanner"); }
+}
+<div class="loader">
+    <div id="movingBallG">
+        <div class="movingBallLineG"></div>
+        <div id="movingBallG_1" class="movingBallG"></div>
+    </div>
+</div>
+
+<div class="content">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="section-title">@CurrentPage.pageTitle</h2>
+                    @CurrentPage.contentText
+                </div>
+            </div>
+            <div class="services-holder">
+                @*Burası Foreach IMAGE GALLERY*@
+                @{	var gallery = Umbraco.Content(CurrentPage.gallery);
+                    if (gallery != null && gallery.Children.Any())
+                    {
+                        foreach (var img in gallery.Children)
+                        {
+                            <div class="col-md-6">
+                                <img src="@Common.GetHorizontalThumbnailFromGalleryItem(img)" alt="">
+                                <h3>Hizmet Başlığı</h3>
+                                <p>@CurrentPage.contentText</p>
+                                <ul class="ser-list">
+                                    <li>Curabitur mi sem</li>
+                                    <li>Euismod in velit</li>
+                                    <li>Proin eu felis hendrerit</li>
+                                </ul>
+                                <span class="price">1200$-5000$</span>
+                            </div>
+                        }
+
+                    }
+                }
+            </div>
+        </div>
+    </section>
+</div>

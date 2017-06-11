@@ -1,0 +1,88 @@
+﻿@using UmbBase.Web.Business
+@using Umbraco.Web.Models
+
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    Layout = "Master.cshtml";
+}
+
+<div class="container">
+		<div class="row">
+		<div class="sixteen columns">
+
+		<section class="section parallax-section parallax-section-padding-top-bottom-pagetop section-page-top-title" >
+<div class="section-title">
+						<h3>@CurrentPage.pageTitle</h3>
+					</div>
+		<p>@CurrentPage.contentText</p>
+		</section>
+</div>
+	</div>
+		</div>
+
+		<div class="container-fluid">
+		<div class="row">
+		<div class="sixteen columns">
+
+		<section class="section grey-section section-padding-top-bottom">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="section-title">
+						<h3>@CurrentPage.pageSubTitle</h3>
+					</div>
+				</div>
+							
+				
+				
+				
+@{
+	var selection = CurrentPage.Site().FirstChild("clientHome").FirstChild("clientContentPage").Children("hakkimizdaKurucularimiz").Where("Visible");
+}
+
+	@foreach(var item in selection){
+		
+		<div class="one-third column" data-scroll-reveal="enter left move 200px over 1s after 0.3s">
+					<div class="team-box-1 full-image-box">
+						<img src="@item.kurucuresim"  alt="">
+						<div class="team-box-1-text-in white-section">
+							<div class="team-name-top">@item.kurucunvan</div>
+							<h6>@item.kurucuisim</h6>
+							<p>@item.kurucuyazi</p>
+							<div class="social-team">
+								<ul class="team-social">
+									<li class="icon-team">
+										<a href="@item.kuruculinkedin" target="_BLANK">&#xf08c;</a>
+									</li>
+									<li class="icon-team">
+										<a href="@item.kurucufacebook" target="_BLANK">&#xf082;</a>
+									</li>
+								</ul>	
+							</div>
+						</div>
+					</div>
+				</div>
+
+		
+	
+	}
+
+
+					
+									
+						
+			</div>
+		</section>	
+
+</div>
+	</div>
+		</div>
+		
+@section jsek{
+<script type="text/javascript" src="/scripts/custom-team.js"></script>
+<script type="text/javascript" src="/scripts/smk-accordion.js"></script>
+<script type="text/javascript" src="/scripts/pro-bars.js"></script>
+<script type="text/javascript" src="/scripts/visible.min.js"></script>
+}
+							
+ 									

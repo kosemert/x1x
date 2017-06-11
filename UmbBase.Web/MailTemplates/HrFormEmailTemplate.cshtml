@@ -1,0 +1,17 @@
+﻿@model UmbBase.Web.Models.HRFormViewModel
+@{ 
+    var domain = HttpContext.Current.Request.Url.Host;
+}
+
+<p>Merhaba</p>
+<p>Bu form web ik formu <b>@domain</b> tarafından gönderilmiştir.</p>
+<p>İsim : <b>@Model.FullName</b></p>
+<p>Email : <b>@Model.Email</b></p>
+<p>Doğum Yeri : <b>@Model.birthplace</b></p>
+<p>Doğum Tarihi : <b>@Model.BirtDay.ToShortDateString()</b></p>
+<p>Medeni Hali : <b>@Model.maritalStatus</b></p>
+<p>Cinsiyet : <b>@Model.Sexual</b></p>
+<p>Sigara Kullanımı : <b>@Model.smoke</b></p>
+<p>Telefon Numarası : <b>@Model.TelNo</b></p>
+<p>ÖnYazı : <b>@Model.PreviewText</b></p>
+

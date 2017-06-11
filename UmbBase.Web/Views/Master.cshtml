@@ -1,0 +1,168 @@
+﻿@using System.Web.Optimization
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+    var home = CurrentPage.Site();
+    var metaTags = CurrentPage.metaTags;
+    var metaDescription = CurrentPage.metaDescription;
+    if (string.IsNullOrEmpty(metaDescription))
+    {
+        metaDescription = CurrentPage._siteDescription;
+    }
+    var currentPageTitle = (string.IsNullOrEmpty(CurrentPage.browserTitle) ? CurrentPage.Name : CurrentPage.browserTitle) + " | " + CurrentPage._homePageTitle;
+}
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>@currentPageTitle</title>
+    <meta name="tags" content="@Html.Raw(HttpUtility.HtmlDecode(metaTags))">
+    <meta name="description" content="@Html.Raw(metaDescription)">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+	 @Styles.Render("~/bundles/css")
+	 @RenderSection("cssek", false)
+</head>
+<body>
+	<div class="header-top">
+		<header class="cd-main-header">
+			<a class="cd-logo animsition-link" href="/"><img src="/images/logo.png" alt="Logo"></a>
+			<ul class="cd-header-buttons">
+				<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+			</ul>
+		</header>
+		<nav class="cd-nav">
+			@{ Html.RenderPartial("MainNavigation"); }
+
+		</nav>
+	</div>
+<main class="cd-main-content">
+	@RenderBody()
+	
+	<section class="section footer-1 section-padding-top-bottom">	
+			<div class="container">
+				<div class="five columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.8s">
+					<a href="/" class="animsition-link"><div class="logo-footer"></div></a>
+				</div>
+				
+				<div class="six columns" data-scroll-reveal="enter right move 200px over 0.5s after 0.3s">
+					<h6><i class="icon-footer">&#xf041;</i>@CurrentPage._addressCity</h6>
+					<p>@CurrentPage._addressLine1<br/>
+					@CurrentPage._contactPhone</p>
+				</div>
+				<div class="five columns" data-scroll-reveal="enter right move 200px over 0.5s after 0.8s">
+					<div class="social-bottom">
+						<ul class="list-social">
+							<li class="icon-soc">
+								<a href="@CurrentPage._socialTwitter" target="_BLANK">&#xf099;</a>
+							</li>
+							<li class="icon-soc">
+								<a href="@CurrentPage._socialFacebook" target="_BLANK">&#xf09a;</a>
+							</li>
+							<li class="icon-soc">
+								<a href="@CurrentPage._socialInstagram" target="_BLANK">&#xf16d;</a>
+							</li>
+							
+						</ul>	
+					</div>
+					<p><i class="icon-footer">&#xf0e0;</i><a href="mailto:@CurrentPage._contactEmail" title="mail">@CurrentPage._contactEmail</a></p>
+				</div>	
+			</div>
+		</section>
+		<section class="section footer-bottom">	
+			<div class="container">
+				<div class="sixteen columns">
+					<p>&copy; Copyright 2017 - @CurrentPage._homePageTitle &nbsp;/&nbsp; Tasarım ve Uygulama <a href="http://www.reklamfabrikasi.com/" target="_blank">RF</a></p>
+				</div>	
+			</div>
+		</section>
+	
+	</main>		
+	<div class="scroll-to-top">&#xf106;</div>
+	</div>
+					
+          
+
+<script type="text/javascript" src="/scripts/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="/scripts/modernizr.custom.js"></script> 
+<script type="text/javascript" src="/scripts/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="/scripts/retina-1.1.0.min.js"></script>	
+<script type="text/javascript" src="/scripts/jquery.animsition.min.js"></script>
+<script type="text/javascript">
+(function($) { "use strict";
+	$(document).ready(function() {
+	  
+	  $(".animsition").animsition({
+	  
+		inClass               :   'zoom-in-sm',
+		outClass              :   'zoom-out-sm',
+		inDuration            :    1500,
+		outDuration           :    800,
+		linkElement           :   '.animsition-link', 
+		// e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+		loading               :    true,
+		loadingParentElement  :   'body', //animsition wrapper element
+		loadingClass          :   'animsition-loading',
+		unSupportCss          : [ 'animation-duration',
+								  '-webkit-animation-duration',
+								  '-o-animation-duration'
+								],
+		//"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. 
+		//The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+		
+		overlay               :   false,
+		
+		overlayClass          :   'animsition-overlay-slide',
+		overlayParentElement  :   'body'
+	  });
+	});  
+})(jQuery);
+</script>
+<script type="text/javascript" src="/scripts/jquery.themepunch.tools.min.js"></script>   
+<script type="text/javascript" src="/scripts/jquery.themepunch.revolution.min.js"></script> 
+<script type="text/javascript" src="/scripts/jquery.easing.js"></script>	
+<script type="text/javascript" src="/scripts/jquery.hidescroll.min.js"></script>	
+<script type="text/javascript">
+	$('.header-top').hidescroll();
+</script>
+<script type="text/javascript" src="/scripts/smoothScroll.js"></script>
+<script type="text/javascript" src="/scripts/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="/scripts/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="/scripts/waypoints.min.js"></script>
+<script type="text/javascript" src="/scripts/scrollReveal.js"></script>
+<script type="text/javascript">
+(function($) { "use strict";
+      window.scrollReveal = new scrollReveal();
+})(jQuery);
+</script>
+<script type="text/javascript" src="/scripts//owl.carousel.min.js"></script>
+<script type="text/javascript"> 
+(function($) { "use strict";          
+			jQuery(document).ready(function() {
+				var offset = 450;
+				var duration = 500;
+				jQuery(window).scroll(function() {
+					if (jQuery(this).scrollTop() > offset) {
+						jQuery('.scroll-to-top').fadeIn(duration);
+					} else {
+						jQuery('.scroll-to-top').fadeOut(duration);
+					}
+				});
+				
+				jQuery('.scroll-to-top').click(function(event) {
+					event.preventDefault();
+					jQuery('html, body').animate({scrollTop: 0}, duration);
+					return false;
+				})
+			});
+})(jQuery);
+</script>
+<script type="text/javascript" src="/scripts/styleswitcher.js"></script>
+@RenderSection("jsek", false)
+</body>
+</html>

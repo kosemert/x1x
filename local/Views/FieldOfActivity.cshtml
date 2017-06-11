@@ -1,0 +1,110 @@
+﻿@using UmbBase.Web.Business
+@using Umbraco.Web.Models
+
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    Layout = "Master.cshtml";
+}
+
+@section SubHeader{
+
+    <section id="subheader" data-stellar-background-ratio=".3" style="background-image:url(@Common.GetBannerFromContentItem(CurrentPage,"Carousel"))">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>@CurrentPage.pageTitle</h1>
+                    <div class="small-border-deco"><span></span></div>
+                    @*
+                        <ul class="crumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="sep"></li>
+                            <li>General Consulting</li>
+                        </ul>
+                    *@
+                </div>
+            </div>
+        </div>
+    </section>
+
+}
+
+<div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>@CurrentPage.pageTitle</h2>
+                        @if (!string.IsNullOrEmpty(CurrentPage.pageSubTitle.ToString()))
+                        {
+                            <div class="col-md-12">
+                                <blockquote>@CurrentPage.pageSubTitle</blockquote>
+                            </div>
+                        }
+                        @CurrentPage.contentText
+                        @if (!string.IsNullOrEmpty(CurrentPage.distroLogos.ToString()))
+                        {
+                            var distroLogos = new List<dynamic> (CurrentPage.distroLogos.ToString().Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries));
+
+                            <div class="spacer-half"></div>
+                            <h2>@Common.Translate("Content.Distributors")</h2>
+                            <div class="row zoom-gallery">
+                                @{
+                                    var logos = Umbraco.Content(distroLogos);
+                                    if (logos != null && logos.Any())
+                                    {
+                                        foreach (var img in logos)
+                                        {
+                                            <div class="col-md-4 pic-services">
+                                                <figure class="pic-hover">
+                                                    <a href="@img.galleryImageFile.Src">
+                                                        <span class="center-xy">
+                                                            <i class="fa fa-search btn-action btn-action-hide"></i>
+                                                        </span>
+                                                        <span class="bg-overlay"></span>
+                                                        <img src="@Common.GetThumbnailFromGalleryItem(img)" class="img-responsive" alt="@img.galleryImageTitle" />
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                        }
+                                    }
+                                }
+                            </div>
+                            }
+                        @if (!string.IsNullOrEmpty(CurrentPage.pageGallery.ToString()))
+                        {
+                            <div class="spacer-half"></div>
+                            <div class="row zoom-gallery">
+                                @{
+                                    var gallery = Umbraco.Content(CurrentPage.pageGallery);
+                                    if (gallery != null && gallery.Children.Any())
+                                    {
+                                        foreach (var img in gallery.Children)
+                                        {
+                                            <div class="col-md-6 pic-services">
+                                                <figure class="pic-hover">
+                                                    <a href="@img.galleryImageFile.Src">
+                                                        <span class="center-xy">
+                                                            <i class="fa fa-search btn-action btn-action-hide"></i>
+                                                        </span>
+                                                        <span class="bg-overlay"></span>
+                                                        <img src="@Common.GetThumbnailFromGalleryItem(img)" class="img-responsive" alt="@img.galleryImageTitle" />
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                        }
+                                    }
+                                }
+                            </div>
+                                    }
+                    </div>
+                </div>
+
+            </div>
+            <div id="sidebar" class="col-md-3">
+                @{ Html.RenderPartial("NeighbourNodes");}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using UmbBase.Web.Business;
+
+@{
+    Layout = "Master.cshtml";
+    int page;
+    var pageParameter = Request.QueryString["page"];
+    if (!int.TryParse(pageParameter, out page))
+    {
+        page = 1;
+    }
+
+    var news = CurrentPage.DescendantsOrSelf(ApplicationConstants.BlogDocumentAlias).Skip((page - 1) * 20).Take(20);
+}
+
+@{
+    { Html.RenderPartial("PageBanner"); }
+}
+<div class="content">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    @foreach (var item in news)
+                    {
+                        <article>
+                            <h2 class="section-title dec-title"><span><strong>@item.pageSubTitle</strong></span></h2>
+                            <ul class="creat-list">
+                                <li><a href="#">@(((DateTime)item.pagePublishDate).ToString("dd")) @(((DateTime)item.pagePublishDate).ToString("MMM"))</a></li>
+                                <li><a href="#">@item.pageSubTitle</a></li>
+                            </ul>
+                            <div class="blog-media">
+                                <div class="box-item">
+                                    <a class="ajax" href="@item.Url">
+                                        <span class="overlay"></span>
+                                        <img src="@Common.GetThumbnailFromContentItem(item, "NewsHero")" alt="" class="respimg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-text">
+                                <h3><a class="ajax">@item.pageSubTitle</a></h3>
+                                <p>
+                                    @item.previewText
+                                </p>
+                                <a class="btn" href="@item.Url"><span>@Common.Translate("News.ReadMore")</span> <i class="fa fa-long-arrow-right"></i></a>
+                            </div>
+                        </article>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,54 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Project>
+@using System;
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "Master.cshtml";
+}
+
+
+<section class="home section white-section section-padding-bottom section-home-padding-top">
+		
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="section-title">
+						<h1>@CurrentPage.pageTitle</h1>
+					</div>
+				</div>
+				<div class="eleven columns">
+					<div class="full-image">
+		<img src="@Umbraco.Media(CurrentPage.pageImage).Url" style="width: 950px;height: 450px;" alt="@CurrentPage.pageTitle">
+					</div>
+				</div>
+				<div class="five columns">
+					<div class="ajax-project-content">
+					@CurrentPage.contentText
+						
+					</div>
+				</div>
+
+@if (Model.Content.HasValue("topluGaleri"))
+    {
+        var partnersImagesList =  Model.Content.GetPropertyValue<string>("topluGaleri").Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse);
+        var partnersImagesCollection = Umbraco.TypedMedia(partnersImagesList).Where(x => x != null);
+        foreach (var partnerImage in partnersImagesCollection)
+        {
+           <div class="one-third column">
+					<div class="full-image">
+						<img src="@partnerImage.Url" alt="">
+					</div>
+				</div> 
+        }
+    }
+	<div class="clear"></div>	
+			</div>	
+		</section>
+
+@section cssek{
+<link rel="stylesheet" href="/css/colorbox.css"/>
+}
+@section jsek{
+<script type="text/javascript" src="/scripts/custom-gallery-project.js"></script>
+<script type="text/javascript" src="/scripts/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/scripts/jquery.colorbox.js"></script>
+}
+					

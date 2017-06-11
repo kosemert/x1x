@@ -1,0 +1,16 @@
+﻿@using UmbBase.Web.Business
+@using System;
+@using System.Collections;
+
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@if (!string.IsNullOrEmpty(CurrentPage._bannerText.ToString()))
+{
+
+    <div class="container">
+        <div class="row">
+            @CurrentPage._bannerText
+        </div>
+    </div>
+
+}

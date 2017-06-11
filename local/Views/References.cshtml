@@ -1,0 +1,49 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+@{
+    { Html.RenderPartial("PageBanner"); }
+}
+
+<div class="content">
+    <section>
+        <div class="container">
+            @{
+
+                var gallery = Umbraco.Content(CurrentPage.pageGallery);
+                if (gallery != null && gallery.Children.Any())
+                {
+                    <div class="gallery-items four-columns grid-small-pad lightgallery">
+                        @foreach (var img in gallery.Children)
+                        {
+                            <div class="gallery-item">
+                                <div clas="grid-item-holder">
+                                    <div class="grid-item-holder">
+                                        <div class="box-item">
+                                            <a data-src="@img.galleryImageFile.Src" class="popup-image" data-sub-html="@img.galleryImageTitle">
+                                                <span class="overlay"></span>
+                                                <img src="@Common.GetHorizontalThumbnailFromGalleryItem(img)" alt="" />
+                                                <ul class="team-holder">
+                                                    <div clas="team-box">
+                                                        <div class="team-info">
+                                                            <strong><h4 style="text-align:center !important">@img.galleryImageTitle</h4></strong>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                <div class="custom-link-holder">
+                    <a href="/tr/iletisim" class="btn anim-button" data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>@Common.Translate("Content.OrderProject")</span><i class="fa fa-long-arrow-right"></i></a>
+                </div>
+            }
+        </div>
+    </section>
+</div>
+

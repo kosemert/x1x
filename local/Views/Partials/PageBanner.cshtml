@@ -1,0 +1,49 @@
+﻿@using System.Web.Mvc
+@using UmbBase.Web.Business
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+<div class="dynamic-title">@CurrentPage.pageTitle</div>
+
+
+<div class="content">
+    <section class="parallax-section">
+        <div class="parallax-inner">
+            <div class="bg" data-bg="@Common.GetBannerFromContentItem(CurrentPage,"Carousel")" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+            <div class="overlay"></div>
+        </div>
+        <div class="container">
+            <div class="page-title">
+                <div class="row">
+                    <div class="col-md-6">
+                        @if (!string.IsNullOrEmpty(CurrentPage.pageTitle.ToString()))
+                        {
+                            <h2>@CurrentPage.pageTitle.ToUpper()</h2>
+                        }
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="creat-list">
+                            <li><a href="/">@Common.Translate("Homepage.Homepage")</a></li>
+                            @{
+                                var breadcrumb = Common.CreateBreadcrumb(CurrentPage);
+                                foreach (var node in breadcrumb)
+                                {
+                                    <li><a href="@node.Url">@node.pageTitle</a></li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@*<section id="subheader" data-stellar-background-ratio=".3" style="background-image:url(@Common.GetBannerFromContentItem(CurrentPage,"PageBanner"))">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>@CurrentPage.pageTitle.ToUpper()</h1>
+                    <div class="small-border-deco"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </section>*@

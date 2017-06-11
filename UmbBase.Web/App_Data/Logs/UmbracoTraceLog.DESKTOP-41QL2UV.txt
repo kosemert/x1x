@@ -1,0 +1,1220 @@
+﻿ 2017-06-11 00:18:39,097 [P2376/D4/T88] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:18:39,097 [P2376/D4/T88] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:19:32,807 [P2376/D4/T86] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 's' with Id '0' has been published.
+ 2017-06-11 00:19:36,918 [P2376/D4/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:19:36,933 [P2376/D4/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:19:43,394 [P2376/D4/T86] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 's' with Id '8480' has been unpublished.
+ 2017-06-11 00:19:47,492 [P2376/D4/T86] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:19:47,550 [P2376/D4/T86] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:20:08,195 [P2376/D4/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 1' with Id '8474' has been published.
+ 2017-06-11 00:20:12,214 [P2376/D4/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 2' with Id '8476' has been published.
+ 2017-06-11 00:20:16,298 [P2376/D4/T82] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:20:16,351 [P2376/D4/T82] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:20:16,424 [P2376/D4/T107] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 3' with Id '8477' has been published.
+ 2017-06-11 00:20:19,894 [P2376/D4/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 4' with Id '8478' has been published.
+ 2017-06-11 00:20:23,773 [P2376/D4/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 5' with Id '8479' has been published.
+ 2017-06-11 00:20:27,842 [P2376/D4/T82] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:20:27,901 [P2376/D4/T82] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:21:59,678 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-06-11 00:21:59,678 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-06-11 00:21:59,682 [P2376/D4/T95] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-06-11 00:21:59,686 [P2376/D4/T103] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-06-11 00:21:59,697 [P2376/D4/T95] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-06-11 00:21:59,697 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-06-11 00:21:59,697 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-06-11 00:21:59,698 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-06-11 00:21:59,791 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-06-11 00:21:59,791 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-06-11 00:21:59,791 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-06-11 00:21:59,791 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-06-11 00:21:59,792 [P2376/D4/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-06-11 00:21:59,792 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-06-11 00:21:59,792 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-06-11 00:21:59,792 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-06-11 00:21:59,792 [P2376/D4/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-06-11 00:22:05,830 [P2376/D5/T100] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-41QL2UV
+ 2017-06-11 00:22:05,864 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-06-11 00:22:05,874 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2017-06-11 00:22:05,927 [P2376/D5/T100] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-06-11 00:22:05,928 [P2376/D5/T100] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-06-11 00:22:05,953 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-06-11 00:22:06,165 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 211ms)
+ 2017-06-11 00:22:06,222 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-06-11 00:22:06,224 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2017-06-11 00:22:06,225 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-06-11 00:22:06,226 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-06-11 00:22:06,235 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-06-11 00:22:06,237 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-06-11 00:22:06,237 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-06-11 00:22:06,245 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2017-06-11 00:22:06,321 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-06-11 00:22:06,322 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-06-11 00:22:06,322 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-06-11 00:22:06,323 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-06-11 00:22:07,718 [P2376/D5/T100] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 00:22:07,911 [P2376/D5/T100] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 00:22:07,936 [P2376/D5/T100] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-06-11 00:22:07,989 [P2376/D5/T100] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-06-11 00:22:08,041 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-06-11 00:22:08,043 [P2376/D5/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-06-11 00:22:08,289 [P2376/D5/T100] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-06-11 00:22:08,290 [P2376/D5/T100] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 00:22:08,352 [P2376/D5/T100] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2636ms)
+ 2017-06-11 00:22:09,180 [P2376/D5/T93] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://127.0.0.1:88/umbraco (UmbracoModule request)
+ 2017-06-11 00:22:15,107 [P2376/D5/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-06-11 00:22:15,109 [P2376/D5/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-06-11 00:22:15,882 [P2376/D5/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:22:15,883 [P2376/D5/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-06-11 00:22:16,075 [P2376/D5/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 00:22:16,079 [P2376/D5/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 3ms)
+ 2017-06-11 00:22:16,086 [P2376/D5/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:22:16,086 [P2376/D5/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:22:16,088 [P2376/D5/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 00:22:16,089 [P2376/D5/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-06-11 00:22:16,143 [P2376/D5/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-06-11 00:22:16,144 [P2376/D5/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-06-11 00:22:17,962 [P2376/D5/T89] INFO  umbraco.content - Load Xml from file...
+ 2017-06-11 00:22:17,980 [P2376/D5/T89] INFO  umbraco.content - Loaded Xml from file.
+ 2017-06-11 00:22:29,846 [P2376/D4/T103] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment kapanmaya neden oldu
+
+_shutDownStack=   konum: System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   konum: System.Environment.get_StackTrace()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   konum: System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   konum: System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   konum: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   konum: System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-06-11 00:22:59,002 [P2376/D5/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 's' with Id '0' has been published.
+ 2017-06-11 00:22:59,207 [P2376/D5/T103] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-06-11 00:22:59,208 [P2376/D5/T103] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-06-11 00:23:03,276 [P2376/D5/T91] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:23:03,292 [P2376/D5/T91] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:23:05,532 [P2376/D5/T103] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:23:05,532 [P2376/D5/T103] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:23:06,263 [P2376/D5/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:23:06,263 [P2376/D5/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:23:13,548 [P2376/D5/T55] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The call is ambiguous between the following methods or properties: 'Umbraco.Web.UmbracoHelper.Content(params int[])' and 'Umbraco.Web.UmbracoHelper.Content(params string[])'
+   at CallSite.Target(Closure , CallSite , UmbracoHelper , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_Views_Partials_MainNavigation_cshtml.Execute() in c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\Partials\MainNavigation.cshtml:line 6
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_Master_cshtml.Execute() in c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\Master.cshtml:line 40
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 00:23:13,756 [P2376/D5/T93] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-06-10 00:23:13
+ 2017-06-11 00:23:23,316 [P2376/D5/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 's' with Id '8481' has been published.
+ 2017-06-11 00:23:27,431 [P2376/D5/T95] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:23:27,546 [P2376/D5/T95] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:23:30,067 [P2376/D5/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:23:30,067 [P2376/D5/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:23:41,433 [P2376/D5/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 's' with Id '8481' has been unpublished.
+ 2017-06-11 00:23:45,487 [P2376/D5/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:23:45,503 [P2376/D5/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:25:05,221 [P2376/D5/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-06-11 00:25:05,222 [P2376/D5/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 1ms)
+ 2017-06-11 00:27:36,148 [P2376/D5/T84] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:27:36,148 [P2376/D5/T84] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:27:57,047 [P2376/D5/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'a' with Id '0' has been published.
+ 2017-06-11 00:28:01,154 [P2376/D5/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:28:01,204 [P2376/D5/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:29:29,506 [P2376/D5/T73] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:29:29,506 [P2376/D5/T73] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:29:30,761 [P2376/D5/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:29:30,761 [P2376/D5/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:29:36,039 [P2376/D5/T85] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The call is ambiguous between the following methods or properties: 'Umbraco.Web.UmbracoHelper.Content(params int[])' and 'Umbraco.Web.UmbracoHelper.Content(params string[])'
+   at CallSite.Target(Closure , CallSite , UmbracoHelper , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_Views_Partials_MainNavigation_cshtml.Execute() in c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\Partials\MainNavigation.cshtml:line 6
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_Master_cshtml.Execute() in c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\Master.cshtml:line 40
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 00:31:00,362 [P2376/D5/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'a' with Id '8484' has been unpublished.
+ 2017-06-11 00:31:04,437 [P2376/D5/T102] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:31:04,473 [P2376/D5/T102] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:31:13,467 [P2376/D5/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '1' with Id '0' has been published.
+ 2017-06-11 00:31:17,557 [P2376/D5/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:31:17,602 [P2376/D5/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:32:25,490 [P2376/D5/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '1' with Id '8485' has been unpublished.
+ 2017-06-11 00:32:29,553 [P2376/D5/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:32:29,629 [P2376/D5/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:32:39,043 [P2376/D5/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo' with Id '0' has been published.
+ 2017-06-11 00:32:43,186 [P2376/D5/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:32:43,290 [P2376/D5/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:33:04,260 [P2376/D5/T85] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:33:04,260 [P2376/D5/T85] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:33:27,816 [P2376/D5/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 1' with Id '8474' has been unpublished.
+ 2017-06-11 00:33:31,900 [P2376/D5/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:33:31,953 [P2376/D5/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:33:42,697 [P2376/D5/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 2' with Id '8476' has been unpublished.
+ 2017-06-11 00:33:46,819 [P2376/D5/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:33:46,837 [P2376/D5/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:33:53,638 [P2376/D5/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 3' with Id '8477' has been unpublished.
+ 2017-06-11 00:33:57,716 [P2376/D5/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:33:57,777 [P2376/D5/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:33:59,753 [P2376/D5/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 4' with Id '8478' has been unpublished.
+ 2017-06-11 00:34:03,788 [P2376/D5/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:34:03,811 [P2376/D5/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:34:11,008 [P2376/D5/T83] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 5' with Id '8479' has been unpublished.
+ 2017-06-11 00:34:15,059 [P2376/D5/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:34:15,116 [P2376/D5/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:34:25,048 [P2376/D5/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referanslar' with Id '8374' has been published.
+ 2017-06-11 00:34:29,163 [P2376/D5/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:34:29,208 [P2376/D5/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:34:39,743 [P2376/D5/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 1' with Id '0' has been published.
+ 2017-06-11 00:34:43,091 [P2376/D5/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 1' with Id '8487' has been published.
+ 2017-06-11 00:34:47,149 [P2376/D5/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:34:47,206 [P2376/D5/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:34:56,005 [P2376/D5/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 2' with Id '0' has been published.
+ 2017-06-11 00:34:59,182 [P2376/D5/T83] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 2' with Id '8488' has been published.
+ 2017-06-11 00:35:03,275 [P2376/D5/T102] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:35:03,332 [P2376/D5/T102] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:35:12,254 [P2376/D5/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 3' with Id '0' has been published.
+ 2017-06-11 00:35:15,565 [P2376/D5/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 3' with Id '8489' has been published.
+ 2017-06-11 00:35:19,702 [P2376/D5/T102] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:35:19,744 [P2376/D5/T102] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:35:26,552 [P2376/D5/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 4' with Id '0' has been published.
+ 2017-06-11 00:35:29,962 [P2376/D5/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 4' with Id '8490' has been published.
+ 2017-06-11 00:35:34,039 [P2376/D5/T74] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:35:34,058 [P2376/D5/T74] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:35:44,453 [P2376/D5/T83] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo 5' with Id '0' has been published.
+ 2017-06-11 00:35:48,512 [P2376/D5/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:35:48,535 [P2376/D5/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:36:41,930 [P2376/D5/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haberler' with Id '6164' has been published.
+ 2017-06-11 00:36:41,931 [P2376/D5/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'İletişim' with Id '8253' has been published.
+ 2017-06-11 00:36:41,931 [P2376/D5/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Projeler' with Id '8350' has been published.
+ 2017-06-11 00:36:41,932 [P2376/D5/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Proje Kategori Listesi' with Id '8351' has been published.
+ 2017-06-11 00:36:41,932 [P2376/D5/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmetler' with Id '8387' has been published.
+ 2017-06-11 00:36:41,933 [P2376/D5/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'InsanKaynaklari' with Id '8411' has been published.
+ 2017-06-11 00:36:41,934 [P2376/D5/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referanslar' with Id '8374' has been published.
+ 2017-06-11 00:36:41,934 [P2376/D5/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo' with Id '8486' has been published.
+ 2017-06-11 00:36:46,476 [P2376/D5/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:36:46,541 [P2376/D5/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:37:36,452 [P2376/D5/T101] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:37:36,452 [P2376/D5/T101] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:38:35,585 [P2376/D5/T84] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kurucu 3' with Id '8433' has been published.
+ 2017-06-11 00:38:39,696 [P2376/D5/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:38:39,779 [P2376/D5/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:38:43,242 [P2376/D5/T75] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2017-06-11 00:38:43,247 [P2376/D5/T75] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 5ms)
+ 2017-06-11 00:44:49,736 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-06-11 00:44:49,736 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-06-11 00:44:49,739 [P2376/D5/T75] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-06-11 00:44:49,746 [P2376/D5/T93] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-06-11 00:44:49,762 [P2376/D5/T75] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-06-11 00:44:49,762 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-06-11 00:44:49,762 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-06-11 00:44:49,762 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-06-11 00:44:49,762 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-06-11 00:44:49,762 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-06-11 00:44:49,762 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-06-11 00:44:49,762 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-06-11 00:44:49,762 [P2376/D5/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-06-11 00:44:49,762 [P2376/D5/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-06-11 00:44:49,763 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-06-11 00:44:49,763 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-06-11 00:44:49,763 [P2376/D5/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-06-11 00:44:52,000 [P2376/D6/T16] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-41QL2UV
+ 2017-06-11 00:44:52,040 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-06-11 00:44:52,067 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Hash determined (took 28ms)
+ 2017-06-11 00:44:52,122 [P2376/D6/T16] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-06-11 00:44:52,122 [P2376/D6/T16] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-06-11 00:44:52,133 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-06-11 00:44:52,160 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 26ms)
+ 2017-06-11 00:44:52,211 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-06-11 00:44:52,216 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+ 2017-06-11 00:44:52,216 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-06-11 00:44:52,218 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-06-11 00:44:52,232 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-06-11 00:44:52,234 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2017-06-11 00:44:52,234 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-06-11 00:44:52,243 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 9ms)
+ 2017-06-11 00:44:52,319 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-06-11 00:44:52,320 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-06-11 00:44:52,320 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-06-11 00:44:52,321 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-06-11 00:44:53,983 [P2376/D6/T16] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 00:44:54,198 [P2376/D6/T16] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 00:44:54,229 [P2376/D6/T16] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-06-11 00:44:54,265 [P2376/D6/T16] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-06-11 00:44:54,299 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-06-11 00:44:54,315 [P2376/D6/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 16ms)
+ 2017-06-11 00:44:54,553 [P2376/D6/T16] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-06-11 00:44:54,559 [P2376/D6/T16] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 00:44:54,649 [P2376/D6/T16] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2784ms)
+ 2017-06-11 00:44:55,217 [P2376/D6/T80] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://127.0.0.1:88/umbraco (UmbracoModule request)
+ 2017-06-11 00:44:58,013 [P2376/D6/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-06-11 00:44:58,029 [P2376/D6/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 16ms)
+ 2017-06-11 00:44:58,757 [P2376/D6/T80] INFO  umbraco.content - Load Xml from file...
+ 2017-06-11 00:44:58,760 [P2376/D6/T80] INFO  umbraco.content - Loaded Xml from file.
+ 2017-06-11 00:44:59,545 [P2376/D6/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:44:59,548 [P2376/D6/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2017-06-11 00:44:59,716 [P2376/D6/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 00:44:59,718 [P2376/D6/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-06-11 00:44:59,725 [P2376/D6/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:44:59,725 [P2376/D6/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:44:59,730 [P2376/D6/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 00:44:59,782 [P2376/D6/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 52ms)
+ 2017-06-11 00:44:59,829 [P2376/D6/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-06-11 00:44:59,831 [P2376/D6/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-06-11 00:45:20,071 [P2376/D5/T93] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment kapanmaya neden oldu
+
+_shutDownStack=   konum: System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   konum: System.Environment.get_StackTrace()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   konum: System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   konum: System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   konum: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   konum: System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-06-11 00:45:30,088 [P2376/D6/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'tr' with Id '2092' has been published.
+ 2017-06-11 00:45:30,284 [P2376/D6/T85] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-06-11 00:45:30,285 [P2376/D6/T85] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-06-11 00:45:34,574 [P2376/D6/T104] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:45:34,625 [P2376/D6/T104] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:45:56,028 [P2376/D6/T102] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-06-10 00:45:56
+ 2017-06-11 00:46:04,701 [P2376/D6/T96] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'tr' with Id '2092' has been published.
+ 2017-06-11 00:46:08,842 [P2376/D6/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:46:08,900 [P2376/D6/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:48:45,932 [P2376/D6/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'tr' with Id '2092' has been published.
+ 2017-06-11 00:48:50,043 [P2376/D6/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:48:50,096 [P2376/D6/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:50:39,988 [P2376/D6/T99] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 00:50:39,988 [P2376/D6/T99] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 00:51:45,582 [P2376/D6/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'tr' with Id '2092' has been published.
+ 2017-06-11 00:51:49,778 [P2376/D6/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:51:49,817 [P2376/D6/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:53:18,978 [P2376/D6/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'tr' with Id '2092' has been published.
+ 2017-06-11 00:53:23,104 [P2376/D6/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:53:23,177 [P2376/D6/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:54:22,273 [P2376/D6/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'tr' with Id '2092' has been published.
+ 2017-06-11 00:54:26,384 [P2376/D6/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:54:26,459 [P2376/D6/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:54:42,061 [P2376/D6/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'tr' with Id '2092' has been published.
+ 2017-06-11 00:54:46,166 [P2376/D6/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:54:46,229 [P2376/D6/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:57:20,654 [P2376/D6/T94] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-06-11 00:57:20,659 [P2376/D6/T94] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 5ms)
+ 2017-06-11 00:58:23,627 [P2376/D6/T98] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'tr' with Id '2092' has been published.
+ 2017-06-11 00:58:27,727 [P2376/D6/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:58:27,776 [P2376/D6/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 00:59:47,607 [P2376/D6/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'tr' with Id '2092' has been published.
+ 2017-06-11 00:59:51,695 [P2376/D6/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 00:59:51,714 [P2376/D6/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:00:03,787 [P2376/D6/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'a' with Id '0' has been published.
+ 2017-06-11 01:00:07,889 [P2376/D6/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:00:07,927 [P2376/D6/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:00:14,295 [P2376/D6/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'a' with Id '8499' has been unpublished.
+ 2017-06-11 01:00:18,370 [P2376/D6/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:00:18,421 [P2376/D6/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:02:32,069 [P2376/D6/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'tr' with Id '2092' has been published.
+ 2017-06-11 01:02:36,167 [P2376/D6/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:02:36,214 [P2376/D6/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:02:44,520 [P2376/D6/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'a' with Id '0' has been published.
+ 2017-06-11 01:02:48,588 [P2376/D6/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:02:48,663 [P2376/D6/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:02:59,521 [P2376/D6/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'a' with Id '8500' has been unpublished.
+ 2017-06-11 01:03:03,587 [P2376/D6/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:03:03,613 [P2376/D6/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:03:53,839 [P2376/D6/T82] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 01:03:53,840 [P2376/D6/T82] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 01:08:25,690 [P2376/D6/T99] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 01:08:25,690 [P2376/D6/T99] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 01:10:54,812 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-06-11 01:10:54,812 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-06-11 01:10:54,816 [P2376/D6/T84] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-06-11 01:10:54,817 [P2376/D6/T101] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-06-11 01:10:54,829 [P2376/D6/T84] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-06-11 01:10:54,830 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-06-11 01:10:54,830 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-06-11 01:10:54,830 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-06-11 01:10:54,830 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-06-11 01:10:54,830 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-06-11 01:10:54,831 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-06-11 01:10:54,831 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-06-11 01:10:54,831 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-06-11 01:10:54,831 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-06-11 01:10:54,831 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-06-11 01:10:54,831 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-06-11 01:10:54,831 [P2376/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-06-11 01:10:56,985 [P2376/D7/T90] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-41QL2UV
+ 2017-06-11 01:10:57,027 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-06-11 01:10:57,038 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2017-06-11 01:10:57,097 [P2376/D7/T90] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-06-11 01:10:57,097 [P2376/D7/T90] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-06-11 01:10:57,111 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-06-11 01:10:57,149 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 37ms)
+ 2017-06-11 01:10:57,209 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-06-11 01:10:57,213 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+ 2017-06-11 01:10:57,213 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-06-11 01:10:57,220 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2017-06-11 01:10:57,230 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-06-11 01:10:57,234 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+ 2017-06-11 01:10:57,234 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-06-11 01:10:57,241 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2017-06-11 01:10:57,317 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-06-11 01:10:57,319 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-06-11 01:10:57,319 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-06-11 01:10:57,320 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-06-11 01:10:59,383 [P2376/D7/T90] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 01:10:59,579 [P2376/D7/T90] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 01:10:59,598 [P2376/D7/T90] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-06-11 01:10:59,633 [P2376/D7/T90] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-06-11 01:10:59,659 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-06-11 01:10:59,662 [P2376/D7/T90] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-06-11 01:10:59,907 [P2376/D7/T90] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-06-11 01:10:59,910 [P2376/D7/T90] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 01:10:59,965 [P2376/D7/T90] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3106ms)
+ 2017-06-11 01:11:00,518 [P2376/D7/T105] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://127.0.0.1:88/umbraco (UmbracoModule request)
+ 2017-06-11 01:11:02,781 [P2376/D7/T97] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-06-11 01:11:02,789 [P2376/D7/T97] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 7ms)
+ 2017-06-11 01:11:03,426 [P2376/D7/T87] INFO  umbraco.content - Load Xml from file...
+ 2017-06-11 01:11:03,429 [P2376/D7/T87] INFO  umbraco.content - Loaded Xml from file.
+ 2017-06-11 01:11:04,359 [P2376/D7/T87] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-06-11 01:11:04,360 [P2376/D7/T87] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-06-11 01:11:07,175 [P2376/D7/T96] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 01:11:07,177 [P2376/D7/T96] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2017-06-11 01:11:07,340 [P2376/D7/T101] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 01:11:07,342 [P2376/D7/T101] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-06-11 01:11:07,344 [P2376/D7/T101] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 01:11:07,344 [P2376/D7/T101] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 01:11:07,346 [P2376/D7/T101] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 01:11:07,347 [P2376/D7/T101] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-06-11 01:11:07,354 [P2376/D7/T101] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-06-11 01:11:07,355 [P2376/D7/T101] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-06-11 01:11:24,993 [P2376/D6/T85] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment kapanmaya neden oldu
+
+_shutDownStack=   konum: System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   konum: System.Environment.get_StackTrace()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   konum: System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   konum: System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   konum: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   konum: System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-06-11 01:11:46,674 [P2376/D7/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anasayfa Dinamik İçerik' with Id '0' has been published.
+ 2017-06-11 01:11:50,876 [P2376/D7/T29] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:11:50,909 [P2376/D7/T29] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:12:01,316 [P2376/D7/T98] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-06-10 01:12:01
+ 2017-06-11 01:12:21,280 [P2376/D7/T96] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-06-11 01:12:21,281 [P2376/D7/T96] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 1ms)
+ 2017-06-11 01:12:36,892 [P2376/D7/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anasayfa Dinamik İçerik' with Id '8505' has been published.
+ 2017-06-11 01:12:40,992 [P2376/D7/T36] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:12:41,029 [P2376/D7/T36] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:13:01,130 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anasayfa Dinamik İçerik' with Id '8505' has been published.
+ 2017-06-11 01:13:01,131 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hakkımızda' with Id '2101' has been published.
+ 2017-06-11 01:13:01,132 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haberler' with Id '6164' has been published.
+ 2017-06-11 01:13:01,132 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'İletişim' with Id '8253' has been published.
+ 2017-06-11 01:13:01,133 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Projeler' with Id '8350' has been published.
+ 2017-06-11 01:13:01,134 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Proje Kategori Listesi' with Id '8351' has been published.
+ 2017-06-11 01:13:01,134 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmetler' with Id '8387' has been published.
+ 2017-06-11 01:13:01,135 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'InsanKaynaklari' with Id '8411' has been published.
+ 2017-06-11 01:13:01,136 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referanslar' with Id '8374' has been published.
+ 2017-06-11 01:13:01,136 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referans Logo' with Id '8486' has been published.
+ 2017-06-11 01:13:05,635 [P2376/D7/T82] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:13:05,687 [P2376/D7/T82] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:13:45,831 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 1' with Id '0' has been published.
+ 2017-06-11 01:13:49,864 [P2376/D7/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:13:49,912 [P2376/D7/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:14:07,147 [P2376/D7/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 2' with Id '0' has been published.
+ 2017-06-11 01:14:11,187 [P2376/D7/T36] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:14:11,229 [P2376/D7/T36] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:14:29,868 [P2376/D7/T87] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 3' with Id '0' has been published.
+ 2017-06-11 01:14:33,916 [P2376/D7/T36] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:14:33,975 [P2376/D7/T36] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:18:28,003 [P2376/D7/T96] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 01:18:28,003 [P2376/D7/T96] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 01:20:05,707 [P2376/D7/T55] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(329): error CS0128: 'selection' adlı bir yerel değişken bu kapsamda zaten tanımlanmış
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 01:27:35,751 [P2376/D7/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'IDEA' with Id '0' has been published.
+ 2017-06-11 01:27:39,845 [P2376/D7/T36] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:27:39,905 [P2376/D7/T36] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:27:43,711 [P2376/D7/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anasayfa Dinamik İçerik' with Id '8505' has been published.
+ 2017-06-11 01:27:47,868 [P2376/D7/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:27:47,895 [P2376/D7/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:28:03,327 [P2376/D7/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CONCEPT' with Id '0' has been published.
+ 2017-06-11 01:28:07,383 [P2376/D7/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:28:07,436 [P2376/D7/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:28:27,351 [P2376/D7/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'DESIGN' with Id '0' has been published.
+ 2017-06-11 01:28:31,444 [P2376/D7/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:28:31,484 [P2376/D7/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:28:52,712 [P2376/D7/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'DEVELOP' with Id '0' has been published.
+ 2017-06-11 01:28:56,229 [P2376/D7/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anasayfa Dinamik İçerik' with Id '8505' has been published.
+ 2017-06-11 01:29:00,317 [P2376/D7/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:29:00,404 [P2376/D7/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:29:17,374 [P2376/D7/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'TEST' with Id '0' has been published.
+ 2017-06-11 01:29:19,487 [P2376/D7/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'TEST' with Id '8518' has been published.
+ 2017-06-11 01:29:23,573 [P2376/D7/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:29:23,615 [P2376/D7/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:29:26,182 [P2376/D7/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'TEST' with Id '8518' has been published.
+ 2017-06-11 01:29:30,228 [P2376/D7/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:29:30,277 [P2376/D7/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:32:11,369 [P2376/D7/T83] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(290): error CS0128: 'selection' adlı bir yerel değişken bu kapsamda zaten tanımlanmış
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 01:45:14,585 [P2376/D7/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 1' with Id '8506' has been published.
+ 2017-06-11 01:45:18,671 [P2376/D7/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:45:18,719 [P2376/D7/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:45:26,143 [P2376/D7/T83] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 2' with Id '8507' has been published.
+ 2017-06-11 01:45:30,288 [P2376/D7/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:45:30,380 [P2376/D7/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:45:40,714 [P2376/D7/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 3' with Id '8508' has been published.
+ 2017-06-11 01:45:44,867 [P2376/D7/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 01:45:44,905 [P2376/D7/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 01:47:08,317 [P2376/D7/T84] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(111): error CS1040: Önişlemci yönergeleri satırdaki boşluk olmayan ilk karakter olmalıdır
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 01:47:43,657 [P2376/D7/T80] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(111): error CS1040: Önişlemci yönergeleri satırdaki boşluk olmayan ilk karakter olmalıdır
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 01:48:19,738 [P2376/D7/T76] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(111): error CS1040: Önişlemci yönergeleri satırdaki boşluk olmayan ilk karakter olmalıdır
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 01:49:35,714 [P2376/D7/T76] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(113): error CS1040: Önişlemci yönergeleri satırdaki boşluk olmayan ilk karakter olmalıdır
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 01:49:56,099 [P2376/D7/T89] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(113): error CS1040: Önişlemci yönergeleri satırdaki boşluk olmayan ilk karakter olmalıdır
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 01:50:59,793 [P2376/D7/T55] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(11): error CS1040: Önişlemci yönergeleri satırdaki boşluk olmayan ilk karakter olmalıdır
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 01:51:55,806 [P2376/D7/T96] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(114): error CS1002: ; bekleniyor
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 01:52:22,902 [P2376/D7/T97] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(11): error CS0103: 'fa' adı geçerli içerikte yok
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 01:54:34,278 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-06-11 01:54:34,278 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-06-11 01:54:34,280 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-06-11 01:54:34,280 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-06-11 01:54:34,295 [P2376/D7/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-06-11 01:54:34,296 [P2376/D7/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-06-11 01:54:34,339 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-06-11 01:54:34,339 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-06-11 01:54:34,340 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-06-11 01:54:34,340 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-06-11 01:54:34,340 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-06-11 01:54:34,340 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-06-11 01:54:34,344 [P2376/D7/T105] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-06-11 01:54:34,355 [P2376/D7/T105] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-06-11 01:54:34,355 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-06-11 01:54:34,355 [P2376/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-06-11 01:54:34,355 [P2376/D7/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-06-11 01:54:35,674 [P2376/D8/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-41QL2UV
+ 2017-06-11 01:54:35,713 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-06-11 01:54:35,732 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 18ms)
+ 2017-06-11 01:54:35,835 [P2376/D8/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-06-11 01:54:35,835 [P2376/D8/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-06-11 01:54:35,851 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-06-11 01:54:35,887 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 36ms)
+ 2017-06-11 01:54:35,962 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-06-11 01:54:35,963 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-06-11 01:54:35,963 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-06-11 01:54:35,964 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-06-11 01:54:35,972 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-06-11 01:54:35,973 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2017-06-11 01:54:35,973 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-06-11 01:54:35,983 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 9ms)
+ 2017-06-11 01:54:36,053 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-06-11 01:54:36,054 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-06-11 01:54:36,054 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-06-11 01:54:36,054 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-06-11 01:54:37,871 [P2376/D8/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 01:54:38,065 [P2376/D8/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 01:54:38,086 [P2376/D8/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-06-11 01:54:38,120 [P2376/D8/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-06-11 01:54:38,149 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-06-11 01:54:38,169 [P2376/D8/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 19ms)
+ 2017-06-11 01:54:38,430 [P2376/D8/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-06-11 01:54:38,431 [P2376/D8/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 01:54:38,480 [P2376/D8/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2925ms)
+ 2017-06-11 01:54:38,910 [P2376/D8/T102] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://127.0.0.1:88/umbraco (UmbracoModule request)
+ 2017-06-11 01:54:39,536 [P2376/D8/T95] INFO  umbraco.content - Load Xml from file...
+ 2017-06-11 01:54:39,539 [P2376/D8/T95] INFO  umbraco.content - Loaded Xml from file.
+ 2017-06-11 01:54:39,717 [P2376/D8/T102] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 01:54:39,718 [P2376/D8/T102] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-06-11 01:54:39,722 [P2376/D8/T102] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 01:54:39,723 [P2376/D8/T102] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-06-11 01:54:40,873 [P2376/D8/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-06-11 01:54:40,877 [P2376/D8/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 3ms)
+ 2017-06-11 01:55:04,396 [P2376/D7/T87] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment kapanmaya neden oldu
+
+_shutDownStack=   konum: System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   konum: System.Environment.get_StackTrace()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   konum: System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   konum: System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   konum: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   konum: System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-06-11 01:55:12,955 [P2376/D8/T97] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-06-11 01:55:12,957 [P2376/D8/T97] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-06-11 01:55:39,595 [P2376/D8/T74] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-06-10 01:55:39
+ 2017-06-11 02:00:41,234 [P2376/D8/T93] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-06-11 02:00:41,236 [P2376/D8/T93] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 2ms)
+ 2017-06-11 02:00:54,868 [P2376/D8/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anasayfa Dinamik İçerik' with Id '8505' has been published.
+ 2017-06-11 02:00:59,177 [P2376/D8/T20] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:00:59,222 [P2376/D8/T20] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:01:15,120 [P2376/D8/T99] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-06-11 02:01:15,123 [P2376/D8/T99] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 2ms)
+ 2017-06-11 02:02:49,799 [P2376/D8/T99] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 02:02:49,799 [P2376/D8/T99] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 02:02:49,902 [P2376/D8/T93] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 02:02:49,919 [P2376/D8/T93] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 16ms)
+ 2017-06-11 02:04:34,760 [P2376/D8/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'IDEA' with Id '8514' has been published.
+ 2017-06-11 02:04:38,875 [P2376/D8/T36] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:04:38,930 [P2376/D8/T36] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:06:05,537 [P2376/D8/T93] INFO  umbraco.content - Loading content from database...
+ 2017-06-11 02:06:09,680 [P2376/D8/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:06:09,759 [P2376/D8/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:06:23,709 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-06-11 02:06:23,709 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-06-11 02:06:23,713 [P2376/D8/T92] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-06-11 02:06:23,718 [P2376/D8/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-06-11 02:06:23,727 [P2376/D8/T92] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-06-11 02:06:24,041 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-06-11 02:06:24,041 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-06-11 02:06:24,041 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-06-11 02:06:24,042 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-06-11 02:06:24,042 [P2376/D8/T99] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-06-11 02:06:24,042 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-06-11 02:06:24,042 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-06-11 02:06:24,042 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-06-11 02:06:24,042 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-06-11 02:06:24,042 [P2376/D8/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-06-11 02:06:24,042 [P2376/D8/T85] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-06-11 02:06:24,042 [P2376/D8/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-06-11 02:06:31,457 [P2376/D9/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-41QL2UV
+ 2017-06-11 02:06:31,484 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-06-11 02:06:31,517 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 33ms)
+ 2017-06-11 02:06:31,573 [P2376/D9/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-06-11 02:06:31,574 [P2376/D9/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-06-11 02:06:31,603 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-06-11 02:06:31,618 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 15ms)
+ 2017-06-11 02:06:31,662 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-06-11 02:06:31,667 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+ 2017-06-11 02:06:31,668 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-06-11 02:06:31,669 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-06-11 02:06:31,683 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-06-11 02:06:31,686 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-06-11 02:06:31,686 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-06-11 02:06:31,694 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2017-06-11 02:06:31,760 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-06-11 02:06:31,761 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-06-11 02:06:31,762 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-06-11 02:06:31,762 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-06-11 02:06:33,287 [P2376/D9/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 02:06:33,476 [P2376/D9/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 02:06:33,496 [P2376/D9/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-06-11 02:06:33,529 [P2376/D9/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-06-11 02:06:33,554 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-06-11 02:06:33,569 [P2376/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 15ms)
+ 2017-06-11 02:06:33,789 [P2376/D9/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-06-11 02:06:33,790 [P2376/D9/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 02:06:33,844 [P2376/D9/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2486ms)
+ 2017-06-11 02:06:34,265 [P2376/D9/T75] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://127.0.0.1:88/umbraco (UmbracoModule request)
+ 2017-06-11 02:06:37,908 [P2376/D9/T97] INFO  umbraco.content - Load Xml from file...
+ 2017-06-11 02:06:37,911 [P2376/D9/T97] INFO  umbraco.content - Loaded Xml from file.
+ 2017-06-11 02:06:38,008 [P2376/D9/T97] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-06-11 02:06:38,010 [P2376/D9/T97] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-06-11 02:06:38,869 [P2376/D9/T97] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-06-11 02:06:38,870 [P2376/D9/T97] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-06-11 02:06:54,105 [P2376/D8/T76] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment kapanmaya neden oldu
+
+_shutDownStack=   konum: System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   konum: System.Environment.get_StackTrace()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   konum: System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   konum: System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   konum: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   konum: System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-06-11 02:07:35,476 [P2376/D9/T101] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 02:07:35,477 [P2376/D9/T101] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-06-11 02:07:35,530 [P2376/D9/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 02:07:35,532 [P2376/D9/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2017-06-11 02:07:35,565 [P2376/D9/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 02:07:35,565 [P2376/D9/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 02:07:35,569 [P2376/D9/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 02:07:35,569 [P2376/D9/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-06-11 02:07:35,624 [P2376/D9/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-06-11 02:07:35,626 [P2376/D9/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-06-11 02:07:37,970 [P2376/D9/T83] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-06-10 02:07:37
+ 2017-06-11 02:10:07,413 [P2376/D9/T84] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'IDEA' with Id '8514' has been published.
+ 2017-06-11 02:10:11,732 [P2376/D9/T17] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:10:11,780 [P2376/D9/T17] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:12:21,969 [P2376/D9/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 1' with Id '8506' has been published.
+ 2017-06-11 02:12:26,090 [P2376/D9/T93] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:12:26,128 [P2376/D9/T93] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:12:39,753 [P2376/D9/T87] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 1' with Id '8506' has been published.
+ 2017-06-11 02:12:43,810 [P2376/D9/T93] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:12:43,850 [P2376/D9/T93] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:16:14,208 [P2376/D9/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 1' with Id '8506' has been published.
+ 2017-06-11 02:16:18,336 [P2376/D9/T93] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:16:18,379 [P2376/D9/T93] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:16:29,249 [P2376/D9/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 1' with Id '8506' has been published.
+ 2017-06-11 02:16:33,405 [P2376/D9/T93] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:16:33,455 [P2376/D9/T93] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:17:26,290 [P2376/D9/T84] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-06-11 02:17:26,292 [P2376/D9/T84] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 2ms)
+ 2017-06-11 02:17:26,815 [P2376/D9/T84] INFO  umbraco.content - Loading content from database...
+ 2017-06-11 02:17:30,893 [P2376/D9/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:17:30,925 [P2376/D9/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:20:44,505 [P2376/D9/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 1' with Id '8506' has been published.
+ 2017-06-11 02:20:48,605 [P2376/D9/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:20:48,687 [P2376/D9/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:20:53,794 [P2376/D9/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 1' with Id '8506' has been published.
+ 2017-06-11 02:20:57,936 [P2376/D9/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:20:57,973 [P2376/D9/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:21:34,301 [P2376/D9/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 2' with Id '8507' has been published.
+ 2017-06-11 02:21:38,364 [P2376/D9/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:21:38,409 [P2376/D9/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:31:51,517 [P2376/D9/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-06-11 02:31:51,517 [P2376/D9/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-06-11 02:31:51,518 [P2376/D9/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-06-11 02:31:51,518 [P2376/D9/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-06-11 02:31:51,519 [P2376/D9/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-06-11 02:31:51,519 [P2376/D9/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-06-11 02:31:51,519 [P2376/D9/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-06-11 02:31:51,519 [P2376/D9/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-06-11 02:31:51,519 [P2376/D9/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-06-11 02:31:51,519 [P2376/D9/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-06-11 02:31:51,519 [P2376/D9/T93] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-06-11 02:31:51,519 [P2376/D9/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-06-11 02:31:51,520 [P2376/D9/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-06-11 02:31:51,520 [P2376/D9/T83] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-06-11 02:31:51,520 [P2376/D9/T36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-06-11 02:31:51,521 [P2376/D9/T75] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-06-11 02:31:51,525 [P2376/D9/T75] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-06-11 02:31:52,805 [P2376/D10/T16] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-41QL2UV
+ 2017-06-11 02:31:52,836 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-06-11 02:31:52,847 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2017-06-11 02:31:52,935 [P2376/D10/T16] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-06-11 02:31:52,936 [P2376/D10/T16] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-06-11 02:31:52,957 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-06-11 02:31:53,012 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 54ms)
+ 2017-06-11 02:31:53,110 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-06-11 02:31:53,111 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-06-11 02:31:53,111 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-06-11 02:31:53,113 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-06-11 02:31:53,128 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-06-11 02:31:53,129 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2017-06-11 02:31:53,129 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-06-11 02:31:53,165 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 35ms)
+ 2017-06-11 02:31:53,270 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-06-11 02:31:53,284 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 13ms)
+ 2017-06-11 02:31:53,284 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-06-11 02:31:53,286 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-06-11 02:31:55,554 [P2376/D10/T16] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 02:31:55,750 [P2376/D10/T16] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 02:31:55,772 [P2376/D10/T16] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-06-11 02:31:55,806 [P2376/D10/T16] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-06-11 02:31:55,829 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-06-11 02:31:55,849 [P2376/D10/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 19ms)
+ 2017-06-11 02:31:56,092 [P2376/D10/T16] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-06-11 02:31:56,093 [P2376/D10/T16] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-06-11 02:31:56,148 [P2376/D10/T16] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3506ms)
+ 2017-06-11 02:31:56,575 [P2376/D10/T87] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://127.0.0.1:88/umbraco (UmbracoModule request)
+ 2017-06-11 02:31:57,182 [P2376/D10/T83] INFO  umbraco.content - Load Xml from file...
+ 2017-06-11 02:31:57,187 [P2376/D10/T83] INFO  umbraco.content - Loaded Xml from file.
+ 2017-06-11 02:31:57,332 [P2376/D10/T87] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 02:31:57,333 [P2376/D10/T87] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-06-11 02:31:57,342 [P2376/D10/T87] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 02:31:57,343 [P2376/D10/T87] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-06-11 02:31:58,250 [P2376/D10/T83] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-06-11 02:31:58,252 [P2376/D10/T83] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-06-11 02:32:21,756 [P2376/D9/T46] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment kapanmaya neden oldu
+
+_shutDownStack=   konum: System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   konum: System.Environment.get_StackTrace()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   konum: System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   konum: System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   konum: System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   konum: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   konum: System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-06-11 02:32:39,424 [P2376/D10/T36] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-06-11 02:32:39,425 [P2376/D10/T36] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-06-11 02:32:57,215 [P2376/D10/T95] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-06-10 02:32:57
+ 2017-06-11 02:33:19,326 [P2376/D10/T84] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hizmet 2' with Id '8507' has been published.
+ 2017-06-11 02:33:23,628 [P2376/D10/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:33:23,661 [P2376/D10/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:34:19,311 [P2376/D10/T55] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml(146): error CS0117: 'umbraco.item' bir 'projeIkon' tanımı içermiyor
+   konum: System.Web.Compilation.AssemblyBuilder.Compile()
+   konum: System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   konum: System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   konum: System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   konum: System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 02:36:26,459 [P2376/D10/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CONCEPT' with Id '8515' has been published.
+ 2017-06-11 02:36:30,560 [P2376/D10/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:36:30,605 [P2376/D10/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:36:39,232 [P2376/D10/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'DESIGN' with Id '8516' has been published.
+ 2017-06-11 02:36:43,290 [P2376/D10/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:36:43,340 [P2376/D10/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:36:50,071 [P2376/D10/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'DEVELOP' with Id '8517' has been published.
+ 2017-06-11 02:36:54,134 [P2376/D10/T84] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:36:54,186 [P2376/D10/T84] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:37:01,113 [P2376/D10/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'TEST' with Id '8518' has been published.
+ 2017-06-11 02:37:05,227 [P2376/D10/T84] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 02:37:05,310 [P2376/D10/T84] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 02:39:41,310 [P2376/D10/T101] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-06-11 02:39:41,312 [P2376/D10/T101] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 2ms)
+ 2017-06-11 17:53:14,356 [P2376/D10/T234] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address 127.0.0.1
+ 2017-06-11 17:53:14,366 [P2376/D10/T234] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address 127.0.0.1
+ 2017-06-11 17:53:15,444 [P2376/D10/T234] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 17:53:15,445 [P2376/D10/T234] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 17:53:21,288 [P2376/D10/T240] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-06-11 17:53:21,401 [P2376/D10/T240] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 113ms)
+ 2017-06-11 17:54:20,536 [P2376/D10/T236] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-06-11 17:55:04,614 [P2376/D10/T231] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anasayfa İçerik' with Id '8505' has been published.
+ 2017-06-11 17:55:08,825 [P2376/D10/T237] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 17:55:08,943 [P2376/D10/T237] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 17:55:42,641 [P2376/D10/T231] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 17:55:42,641 [P2376/D10/T231] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 17:58:06,062 [P2376/D10/T223] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-06-11 17:58:06,064 [P2376/D10/T223] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 2ms)
+ 2017-06-11 17:58:54,953 [P2376/D10/T223] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anasayfa İçerik' with Id '8505' has been published.
+ 2017-06-11 17:58:59,073 [P2376/D10/T237] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 17:58:59,112 [P2376/D10/T237] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 17:59:30,101 [P2376/D10/T235] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'KALITE YÖNETIMI' with Id '0' has been published.
+ 2017-06-11 17:59:34,216 [P2376/D10/T224] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 17:59:34,255 [P2376/D10/T224] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 18:00:00,974 [P2376/D10/T226] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BÜTÇE YÖNETIMI' with Id '0' has been published.
+ 2017-06-11 18:00:05,069 [P2376/D10/T84] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 18:00:05,139 [P2376/D10/T84] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 18:00:30,703 [P2376/D10/T84] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'SÜREÇ YÖNETIMI' with Id '0' has been published.
+ 2017-06-11 18:00:34,850 [P2376/D10/T231] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 18:00:34,884 [P2376/D10/T231] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 18:01:00,627 [P2376/D10/T220] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'RAPORLAMA' with Id '0' has been published.
+ 2017-06-11 18:01:04,681 [P2376/D10/T231] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 18:01:04,742 [P2376/D10/T231] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 18:01:42,284 [P2376/D10/T235] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anasayfa İçerik' with Id '8505' has been published.
+ 2017-06-11 18:01:46,513 [P2376/D10/T231] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 18:01:46,555 [P2376/D10/T231] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 18:02:48,917 [P2376/D10/T223] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anasayfa İçerik' with Id '8505' has been published.
+ 2017-06-11 18:02:53,037 [P2376/D10/T231] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 18:02:53,100 [P2376/D10/T231] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 18:08:24,915 [P2376/D10/T240] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Umbraco.Web.Models.DynamicPublishedContentList' bir 'yonetimIkon' tanımı içermiyor
+   konum: CallSite.Target(Closure , CallSite , Object )
+   konum: System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   konum: ASP._Page_Views_HomePage_cshtml.Execute() c:\inetpub\wwwroot\vercon\UmbBase.Web\Views\HomePage.cshtml içinde: satır 264
+   konum: System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   konum: System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   konum: System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   konum: Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   konum: System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   konum: System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   konum: System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   konum: System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   konum: System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   konum: System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-06-11 18:10:31,917 [P2376/D10/T223] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hakkımızda' with Id '2101' has been published.
+ 2017-06-11 18:10:36,127 [P2376/D10/T220] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 18:10:36,217 [P2376/D10/T220] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 18:10:42,864 [P2376/D10/T240] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haberler' with Id '6164' has been unpublished.
+ 2017-06-11 18:10:43,347 [P2376/D10/T240] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'XYZ Projemize büyük ödül' with Id '8304' has been unpublished.
+ 2017-06-11 18:10:43,483 [P2376/D10/T240] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Web Sitemiz Açıldı' with Id '8302' has been unpublished.
+ 2017-06-11 18:10:43,621 [P2376/D10/T240] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'En yeni haber' with Id '8354' has been unpublished.
+ 2017-06-11 18:10:46,984 [P2376/D10/T220] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 18:10:47,036 [P2376/D10/T220] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 18:11:00,053 [P2376/D10/T231] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'InsanKaynaklari' with Id '8411' has been unpublished.
+ 2017-06-11 18:11:04,104 [P2376/D10/T220] INFO  umbraco.content - Save Xml to file...
+ 2017-06-11 18:11:04,156 [P2376/D10/T220] INFO  umbraco.content - Saved Xml to file.
+ 2017-06-11 18:19:20,278 [P2376/D10/T225] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-06-11 18:19:20,278 [P2376/D10/T225] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-06-11 18:20:55,000 [P2376/D10/T226] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-06-11 18:20:55,091 [P2376/D10/T226] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 91ms)

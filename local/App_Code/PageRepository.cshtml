@@ -1,0 +1,29 @@
+﻿@using System.Web.Mvc
+@functions{
+    public static WebViewPage page = (PageContext.Page as WebViewPage);
+    public static HtmlHelper<object> html = page.Html;
+    public static Umbraco.Web.UmbracoHelper umbracoHelper = new Umbraco.Web.UmbracoHelper(Umbraco.Web.UmbracoContext.Current);
+
+    public static dynamic GetWideBanner(dynamic contentPage)
+    {
+        return contentPage.GetCropUrl("pageBanner", "Wide");
+    }
+
+    public static dynamic GetFeaturedBanner(dynamic contentPage)
+    {
+        return contentPage.GetCropUrl("pageBanner", "Featured");
+    }
+
+    public static dynamic GetChildren(dynamic contentPage, string childDocType)
+    {
+        return contentPage.Children.Where("Visible && DocumentTypeAlias==@0", childDocType);
+    }
+
+    public static dynamic GetAllChildren(dynamic contentPage, string childDocType)
+    {
+        return contentPage.DescendantsOrSelf(childDocType).Where("Visible");
+    }
+
+
+
+}

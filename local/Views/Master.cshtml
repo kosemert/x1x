@@ -1,0 +1,156 @@
+﻿@using System.Web.Optimization
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+    var home = CurrentPage.Site();
+    var metaTags = CurrentPage.metaTags;
+    var metaDescription = CurrentPage.metaDescription;
+    if (string.IsNullOrEmpty(metaDescription))
+    {
+        metaDescription = CurrentPage._siteDescription;
+    }
+    var currentPageTitle = (string.IsNullOrEmpty(CurrentPage.browserTitle) ? CurrentPage.Name : CurrentPage.browserTitle) + " | " + CurrentPage._homePageTitle;
+}
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>@currentPageTitle</title>
+    <meta name="tags" content="@Html.Raw(HttpUtility.HtmlDecode(metaTags))">
+    <meta name="description" content="@Html.Raw(metaDescription)">
+    <meta name="viewport" content="width=device-width">
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,300,200,100,400italic,700,900|Muli&subset=latin,vietnamese,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek' rel='stylesheet' type='text/css'>;
+    @Styles.Render("~/bundles/css")
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="loader">
+        <div id="movingBallG">
+            <div class="movingBallLineG"></div>
+            <div id="movingBallG_1" class="movingBallG"></div>
+        </div>
+    </div>
+    <div id="main">
+        <header>
+            <div class="header-inner">
+                <div class="logo-holder">
+                    <a href="/"><img src="/images/aamimlogo.png" alt=""></a>
+                </div>
+                <div class="nav-button-holder">
+                    <div class="nav-button vis-m"><span></span><span></span><span></span></div>
+                </div>
+                <div class="nav-holder">
+                    <nav>
+                        @{ Html.RenderPartial("MainNavigation"); }
+                    </nav>
+                </div>
+            </div>
+            <div class="show-share isShare">
+                <span>@Common.Translate("Homepage.Share")</span>
+                <i class="fa fa-chain-broken"></i>
+            </div>
+        </header>
+        @RenderSection("SubHeader", false)
+        <div id="wrapper">
+            <div class="content-holder">
+                @RenderBody()
+
+                <div class="height-emulator"></div>
+                <footer class="content-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="footer-item footer-logo">
+                                    <a href="/"><img src="/images/aamimlogo.png" alt=""></a>
+                                    @CurrentPage._bannerText
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="footer-item">
+                                    <h4 class="text-link">@Common.Translate("Footer.Phone")</h4>
+                                    <ul>
+                                        <li><a href="#">@CurrentPage._contactPhone</a></li>
+                                        <li><a href="#">@CurrentPage._contactFax</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Footer info end-->
+                            <!-- Footer info -->
+                            <div class="col-md-2">
+                                <div class="footer-item">
+                                    <h4 class="text-link">@Common.Translate("Footer.Write")</h4>
+                                    <ul>
+                                        <li><a href="#">@CurrentPage._contactEmail</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Footer info-->
+                            <!-- Footer info end-->
+                            <div class="col-md-2">
+                                <div class="footer-item">
+                                    <h4 class="text-link">@Common.Translate("Footer.Visit")</h4>
+                                    <ul>
+                                        <li><span>@CurrentPage._addressLine1 @CurrentPage._addressLine2 @CurrentPage._addressCity</span></li>
+                                        <li>
+                                            <a href="http://maps.google.com/?q=@CurrentPage._addressLine1,@CurrentPage._addressLine2,@CurrentPage._addressCity" target="_blank">Haritada Görüntüle</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6"></div>
+                            <div class="col-md-6">
+                                <div class="footer-wrap">
+                                    <span class="copyright">
+                                        &copy; Copyright 2016 - @CurrentPage._homePageTitle <a href="tr/insankaynaklari">İK İK İK</a>
+                                    </span>
+                                    <span class="copyright">
+                                        &nbsp;/&nbsp; Tasarım ve Uygulama <a id="rf" href="http://www.reklamfabrikasi.com/" target="_blank">RF</a>
+                                    </span>
+                                    <span class="to-top">@Common.Translate("Footer.ToTop")</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <canvas class="particular"></canvas>
+                </footer>
+                <div class="share-inner">
+                    <div class="share-container  isShare" data-share="['facebook','googleplus','twitter','linkedin']"></div>
+                    <div class="close-share"></div>
+                </div>
+            </div>
+        </div>
+        <footer class="fixed-footer">
+            <div class="footer-social">
+                <ul>
+                    <li><a href="@CurrentPage._socialFacebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="@CurrentPage._socialTwitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="@CurrentPage._socialInstagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <!-- Header  title -->
+            <div class="footer-title"><h2><a href="#"></a></h2></div>
+            <!-- Header  title  end-->
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/js")
+    @RenderSection("CustomScripts", false)
+
+</body>
+</html>

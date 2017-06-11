@@ -1,0 +1,57 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+@{
+    { Html.RenderPartial("PageBanner"); }
+}
+
+<div class="content">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="section-title">
+                        <strong>@Common.Translate("ContactForm.WhereToFindUs")</strong>
+                    </h2>
+                </div>
+            </div>
+            <div class="map-box">
+                <div id="map-canvas">
+                    @*Harita Kısmı Burası*@
+                    @Html.Raw(CurrentPage._contactGoogleMaps)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="contact-details">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3 class="bold-title">@Common.Translate("ContactForm.ContactDetails")</h3>
+                            </div>
+                            <div class="col-md-4">
+                                <h4><strong>@CurrentPage._addressLine2</strong> @Common.Translate("ContactForm.Office")</h4>
+                                <ul>
+                                    <li>@CurrentPage._addressLine1</li>
+                                    <li>@CurrentPage._contactPhone</li>
+                                    <li>@CurrentPage._contactEmail</li>
+                                    <li>@CurrentPage._addressLine2 / @CurrentPage._addressLine3</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-holder">
+                        <div id="contact-form">
+                            <div id="message"></div>
+                            @Html.Action("SendContactForm", "ContactForm")
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

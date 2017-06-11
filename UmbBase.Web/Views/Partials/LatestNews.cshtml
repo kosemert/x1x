@@ -1,0 +1,31 @@
+﻿@using UmbBase.Web.Business
+@using System;
+@using System.Collections;
+
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{ 
+    dynamic latestNews = null;
+    var blogFolder = Common.SiteRoot(CurrentPage).DescendantsOrSelf(ApplicationConstants.BlogFolderDocumentAlias).FirstOrDefault();
+    if (blogFolder != null)
+    {
+        latestNews = blogFolder.DescendantsOrSelf(ApplicationConstants.BlogDocumentAlias).OrderBy(ApplicationConstants.ContentPagePublishDateFieldAlias + " desc");
+        if (latestNews.Any())
+        {
+            latestNews = latestNews.Take(10);
+        }
+    }}
+
+@if (latestNews != null)
+{
+    <div class="widget widget-post">
+        <h4>@Common.Translate("Content.Widget.LatestNews")</h4>
+        <div class="small-border"></div>
+        <ul>
+            @foreach (var news in latestNews)
+            {
+                <li><span class="post-date">@(((DateTime)news.pagePublishDate).ToString("dd")) @(((DateTime)news.pagePublishDate).ToString("MMM"))</span><a href="@news.Url">@news.pageTitle</a></li>
+            }
+                       
+        </ul>
+    </div>
+}

@@ -1,0 +1,95 @@
+﻿@using System.Web.Mvc
+@using UmbBase.Web.Business
+@functions{
+    public static WebViewPage page = (PageContext.Page as WebViewPage);
+    public static HtmlHelper<object> html = page.Html;
+    public static Umbraco.Web.UmbracoHelper umbracoHelper = new Umbraco.Web.UmbracoHelper(Umbraco.Web.UmbracoContext.Current);
+
+    public static System.Web.Mvc.MvcHtmlString Translate(string key)
+    {
+        return new System.Web.Mvc.MvcHtmlString(umbraco.library.GetDictionaryItem(key));
+    }
+
+    public static dynamic SiteRoot(dynamic page)
+    {
+        while (page != null && page.DocumentTypeAlias != ApplicationConstants.LocalizedSiteDocumentAlias)
+        {
+            page = page.Parent;
+        }
+        return page;
+    }
+
+    public static string GetSquareThumbnailFromContentItem(dynamic item)
+    {
+        return GetThumbnailFromContentItem(item, "Square-Thumbnail");
+    }
+
+    public static string GetSmallThumbnailFromContentItem(dynamic item)
+    {
+        return GetThumbnailFromContentItem(item, "Gallery-Small");
+    }
+
+    public static string GetThumbnailFromContentItem(dynamic item, string thumbnailAlias)
+    {
+        return GetThumbnailFromContentItem(item, "pageImage", thumbnailAlias);
+    }
+
+    public static string GetBannerFromContentItem(dynamic item, string thumbnailAlias)
+    {
+        return GetThumbnailFromContentItem(item, "pageBanner", thumbnailAlias);
+    }
+
+    public static string GetThumbnailFromGalleryItem(dynamic item)
+    {
+        return item.GetCropUrl("galleryImageFile", "Thumbnail");
+    }
+
+    public static string GetHorizontalThumbnailFromGalleryItem(dynamic item)
+    {
+        return item.GetCropUrl("galleryImageFile", "Horizontal");
+    }
+
+    public static List<dynamic> CreateBreadcrumb(dynamic currentItem)
+    {
+        var breadcrumb = new List<dynamic>();
+        var item = currentItem;
+        while (item != null && item.DocumentTypeAlias != ApplicationConstants.LocalizedSiteDocumentAlias)
+        {            
+            breadcrumb.Add(item);
+            item = item.Parent;
+        }
+        breadcrumb.Reverse();
+        return breadcrumb;
+    }
+
+    public static string GetThumbnailFromContentItem(dynamic item, string imageField, string thumbnailAlias)
+    {
+        var thumbnail = "";
+        var listImage = item.GetPropertyValue(imageField);
+        if (listImage != null && !string.IsNullOrEmpty(listImage.ToString()))
+        {
+            var mediaItem = umbracoHelper.Media(listImage);
+            if (mediaItem != null)
+            {
+                thumbnail = mediaItem.GetCropUrl("umbracoFile", thumbnailAlias);
+            }
+        }
+        return thumbnail;
+    }
+
+
+    public static string GetThumbnailFromCarouselItem(dynamic item, string thumbnailAlias)
+    {
+        var thumbnail = "";
+        var slide = item.carouselImage;
+        if (slide != null && !string.IsNullOrEmpty(slide.ToString()))
+        {
+            var mediaItem = umbracoHelper.Media(slide);
+            if (mediaItem != null)
+            {
+                thumbnail = mediaItem.GetCropUrl("umbracoFile", thumbnailAlias);
+            }
+        }
+        return thumbnail;
+    }
+}

@@ -1,0 +1,28 @@
+﻿@using reCAPTCHA.MVC
+@using UmbBase.Web.Controllers
+@model UmbBase.Web.Models.ContactFormViewModel
+
+@{
+    HtmlHelper.ClientValidationEnabled = true;
+    HtmlHelper.UnobtrusiveJavaScriptEnabled = true;
+}
+
+
+@using (Html.BeginUmbracoForm<ContactFormController>("SendContactForm", FormMethod.Post, new { @class = "", id = "contactform", role = "form" }))
+{
+        @Html.TextBoxFor(m => m.NameLastName, new { placeholder = Common.Translate("ContactForm.NameLastName"), @id = "name",type ="text" })
+        @Html.TextBoxFor(m => m.Email, new { placeholder = Common.Translate("ContactForm.Email"), @id = "email", type = "text" })
+    @*<div>
+    @Html.TextBoxFor(m => m.Subject, new {placeholder= Common.Translate("ContactForm.Subject"), @id = "form-control"})
+    </div>*@
+        @Html.TextAreaFor(m => m.Message, new { placeholder = Common.Translate("ContactForm.Message"), @id = "comments" })
+    <div class="col-md-12">
+        @Html.Recaptcha()
+        @Html.ValidationMessage("ReCaptcha")
+    </div>
+           @* <input type="submit" id="submit" value="@Common.Translate("ContactForm.Submit")" data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);" />*@
+    <div class="col-md-12">
+        <button type="submit" id="submit" data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>@Common.Translate("ContactForm.Submit")</span></button>
+    </div>
+
+}

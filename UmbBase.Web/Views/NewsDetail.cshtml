@@ -1,0 +1,66 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+@{
+    {
+        Html.RenderPartial("PageBanner");
+    }
+}
+<div class="content hor-content pad-con no-bg-con">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <article>
+                    <h3 class="section-title dec-title"><span><strong>@CurrentPage.pageSubTitle</strong></span></h3>
+                    <ul class="creat-list">
+                        <li><a href="#">@(((DateTime)CurrentPage.pagePublishDate).ToString("dd")) @(((DateTime)CurrentPage.pagePublishDate).ToString("MMM"))</a></li>
+                        <li><a href="#">@CurrentPage.pageSubTitle</a></li>
+                        <li><a href="#">Construction</a></li>
+                    </ul>
+                    <div class="blog-media">
+                        <div class="box-item">
+                            <a>
+                                <span class="overlay"></span>
+                                <img src="@Common.GetThumbnailFromContentItem(CurrentPage,"NewsHero")" alt="" class="respimg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-text">
+                        @CurrentPage.contentText
+                    </div>
+                </article>
+                <section>
+                    <div class="gallery-items three-columns grid-small-pad lightgallery">
+                        @{
+                            if (!string.IsNullOrEmpty(CurrentPage.pageGallery.ToString()))
+                            {
+
+                                var gallery = Umbraco.Content(CurrentPage.pageGallery);
+                                if (gallery != null && gallery.Children.Any())
+                                {
+
+                                    foreach (var img in gallery.Children)
+                                    {
+                                        <div class="gallery-item">
+                                            <div class="grid-item-holder">
+                                                <div class="box-item">
+                                                    <a data-src="@img.galleryImageFile.Src" class="popup-image" data-sub-html="@img.galleryImageTitle">
+                                                        <span class="overlay"></span>
+                                                        <img src="@Common.GetHorizontalThumbnailFromGalleryItem(img)" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+
+                            }
+                        }
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+</div>

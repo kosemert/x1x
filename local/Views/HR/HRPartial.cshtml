@@ -1,0 +1,58 @@
+﻿@using reCAPTCHA.MVC
+@using UmbBase.Web.Controllers
+@model UmbBase.Web.Models.HRFormViewModel
+
+@{
+    HtmlHelper.ClientValidationEnabled = true;
+    HtmlHelper.UnobtrusiveJavaScriptEnabled = true;
+}
+
+@using (Html.BeginUmbracoForm<HRController>("HRPartial", FormMethod.Post, new { @class = "", id = "hr", role = "form" }))
+{
+    @Html.TextBoxFor(m => m.FullName, new { placeholder = Common.Translate("ContactForm.NameLastName"), @id = "name", type = "text" })   
+    @Html.TextBoxFor(m => m.birthplace, new { placeholder = Common.Translate("ContactForm.BirthPlace"), @id = "birthplace", type = "text" })
+    <div class="col-md-12">
+        <div class="col-md-3 text-left">@Common.Translate("ContactForm.BirthDay")</div>
+        <div class="col-md-9">@Html.TextBox(DateTime.Now.ToShortTimeString(), String.Format("{0:d}", DateTime.Now.ToShortDateString()), new { @class = "ui-datetimepicker", @id = "BirtDay", type = "date" })</div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-3 text-left">@Common.Translate("ContactForm.Sexual")</div>
+        <div class="col-md-9">
+            Male @Html.RadioButtonFor(m => m.Sexual, Common.Translate("ContactForm.Male"), new { @id = "Sexual" })
+            Female @Html.RadioButtonFor(m => m.Sexual, Common.Translate("ContactForm.Female"), new { @id = "Sexual" })
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-3 text-left">
+            @Common.Translate("ContactForm.Smoking")
+        </div>
+        <div class="col-md-9">
+            Evet @Html.RadioButtonFor(m => m.smoke, Common.Translate("ContactForm.Yes"), new { @id = "smoke" })
+            Hayır @Html.RadioButtonFor(m => m.smoke, Common.Translate("ContactForm.No"), new { @id = "smoke" })
+        </div>
+    </div>
+    <div class="col-md-12">
+        @Html.TextBoxFor(m => m.TelNo, new { placeholder = "05xxxxxxxxx", @id = "TelNo", type = "text" })
+    </div>
+    <div class="col-md-12">
+        @Html.TextBoxFor(m => m.Email, new { placeholder = Common.Translate("ContactForm.Email"), @id = "Email", type = "text" })
+    </div>
+    <div class="col-md-12">
+        @Html.TextAreaFor(m => m.PreviewText, new { placeholder = Common.Translate("ContactForm.PreviewText"), @id = "PreviewText" })
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-3 text-left">
+            @Common.Translate("ContactForm.CV")
+        </div>
+        <div class="col-md-9">
+            <input type="file" name="file" />
+        </div>
+    </div>
+    <div class="col-md-12">
+        @Html.Recaptcha()
+        @Html.ValidationMessage("ReCaptcha")
+    </div>
+    <div class="col-md-12">
+        <button type="submit" id="submit" data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>@Common.Translate("ContactForm.Submit")</span></button>
+    </div>
+}

@@ -1,0 +1,59 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Project>
+@using System;
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "Master.cshtml";
+}
+
+@{
+
+    { Html.RenderPartial("PageBanner"); }
+}
+@{
+    var gallery = Umbraco.Content(CurrentPage.pageGallery.ToString());
+    if (gallery != null && gallery.Children.Any())
+    {
+        <div class="content">
+            <section>
+                <div class="container">
+                    <div class="gallery-items   three-columns grid-small-pad lightgallery">
+                        @foreach (var img in gallery.Children)
+                        {
+                            <div class="gallery-item">
+                                <div class="grid-item-holder">
+                                    <div class="box-item">
+                                        <a data-src="@img.galleryImageFile.Src" class="popup-image" data-sub-html="@img.galleryImageDescription">
+                                            <span class="overlay"></span>
+                                            <img src="@Common.GetHorizontalThumbnailFromGalleryItem(img)" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="custom-inner-holder">
+                        <div class="custom-inner">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>@CurrentPage.pageSubTitle</h3>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>@CurrentPage.previewText</h4>
+                                    <p>@CurrentPage.contentText</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    }
+    else
+    {
+        <div class="content">
+            <section>
+                <div class="container">Proje içerik resimleri seçilmemiş :/</div>
+            </section>
+        </div>
+    }
+}

@@ -1,0 +1,27 @@
+﻿@using System;
+@using System.Collections;
+
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{ 
+    var parent = CurrentPage.Parent;
+    if(CurrentPage.HasProperty("neighbourWidgetRoot") && CurrentPage.neighbourWidgetRoot != null)
+    {
+        parent = Umbraco.Content((int)CurrentPage.neighbourWidgetRoot);
+    }
+}
+
+
+@if (parent.Children.Any())
+{
+    <div class="widget">
+        <ul id="services-list">
+            @foreach (var node in parent.Children)
+            {
+                var htmlClass = node.Id == CurrentPage.Id ?"active" : "";
+                <li class="@htmlClass"><a href="@node.Url">@node.pageTitle</a></li>
+            }
+                        
+        </ul>
+    </div>
+
+}

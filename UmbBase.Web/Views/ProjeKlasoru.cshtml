@@ -1,0 +1,73 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.ProjectFolder>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+
+@{
+    Layout = "Master.cshtml";
+    var allProjectsText = Common.Translate("Content.Projects.AllProjects");
+    var allCategories = Projects.GetAllCategoriesForCurrentLanguage();
+    var projects = Projects.GetAllSubProjects(CurrentPage, 12);
+}
+
+<section class="section white-section section-padding-top-bottom">
+		
+			<div class="container">
+				<div class="sixteen columns">
+					<div id="portfolio-filter">
+						<ul id="filter">
+					 @foreach (var category in allCategories)
+                           {
+							
+							<li><a href="#" data-filter=".@category.Id" title="">@category.categoryName</a></li>
+								
+						   }
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="projects-wrapper">
+				<div id="projects-grid-masonry">
+					
+
+					
+
+					
+
+@{
+	var selection = CurrentPage.Site().FirstChild("clientHome").FirstChild("projectFolder").Children("project").Where("Visible");
+}
+
+	@foreach(var item in selection){
+		
+		<div class="portfolio-box-3 @item.categories">
+						<a href="@item.Url" class="animsition-link"><div class="mask-left">&#xf0c1;</div></a>
+						<a class="group1" href="@Umbraco.Media(@item.pageImage.ToString()).Url"><div class="mask-right">&#xf0b2;</div></a>
+						<img src="@Umbraco.Media(@item.pageImage.ToString()).Url" alt="@item.pageTitle">
+						<h6>@item.pageTitle</h6>
+						<div class="mask-2"></div>
+					</div>
+		
+	}
+
+
+					
+
+					
+
+				</div>
+			</div>
+		</section>
+@section cssek{
+<link rel="stylesheet" href="/css/colorbox.css"/>
+}
+@section jsek{
+<script type="text/javascript" src="/scripts/jquery.colorbox.js"></script>	
+<script type="text/javascript" src="/scripts/custom-masonry-3col.js"></script>
+<script type="text/javascript" src="/scripts/isotope.js"></script> 
+<script type="text/javascript" src="/scripts/masonry.js"></script> 
+<script type="text/javascript" src="/scripts/imagesloaded.pkgd.min.js"></script>
+}
+
+			

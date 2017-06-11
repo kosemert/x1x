@@ -1,0 +1,48 @@
+﻿@using ContentModels = Umbraco.Web.PublishedContentModels;
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Service>
+@using UmbBase.Web.Business
+@using Umbraco.Web.Models
+
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    Layout = "Master.cshtml";
+    var services = CurrentPage.Children;
+}
+
+@{
+    { Html.RenderPartial("PageBanner"); }
+}
+
+<div class="content services">
+    <section>        
+        <div class="container">
+            <div class="row services-holder">
+                <div class="col-md-8 col-xs-12">
+                    @if (!string.IsNullOrEmpty(CurrentPage.pageTitle.ToString()))
+                    {
+                        <h2 class="section-title"><strong> @CurrentPage.pageTitle</strong></h2>
+                    }
+                    @CurrentPage.pageDescription
+                </div>
+            </div>
+            @if (services.Any())
+            {
+                foreach (var service in services)
+                {
+                    <div class="row service">                        
+                        <div class="col-md-12">
+                            <h2>@service.pageTitle</h2>
+                            <div class="col-md-3 col-sm-4 col-xs-12">
+                                <img src="@Common.GetThumbnailFromContentItem(service,"Thumbnail")" width="100%" />
+                            </div>
+                            <div class="col-md-5 col-sm-8 col-xs-12">
+                                @service.ContentText
+                            </div>
+                        </div>       
+                    </div>
+                }
+            }
+        </div>
+    </section>
+</div>

@@ -1,0 +1,53 @@
+ 2017-03-29 10:41:25,637 [P9708/D18/T953] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 10:41:25,641 [P9708/D18/T953] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 10:45:28,087 [P9708/D18/T164] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 10:45:28,094 [P9708/D18/T164] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 11:10:53,784 [P9708/D18/T887] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: 127.0.0.1
+ 2017-03-29 13:56:09,936 [P9708/D18/T350] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 13:56:09,941 [P9708/D18/T350] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 14:02:19,067 [P9708/D18/T350] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 14:02:19,073 [P9708/D18/T350] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 14:04:21,330 [P9708/D18/T307] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 14:04:21,336 [P9708/D18/T307] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 14:08:25,273 [P9708/D18/T979] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 14:08:25,279 [P9708/D18/T979] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 14:14:31,719 [P9708/D18/T350] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 14:14:31,724 [P9708/D18/T350] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 14:15:32,335 [P9708/D18/T875] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 14:15:32,339 [P9708/D18/T875] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 14:20:34,102 [P9708/D18/T886] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 14:20:34,106 [P9708/D18/T886] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 14:22:37,577 [P9708/D18/T334] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 14:22:37,581 [P9708/D18/T334] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 14:23:38,181 [P9708/D18/T145] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 14:23:38,185 [P9708/D18/T145] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 14:32:17,991 [P9708/D18/T336] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-28 14:32:17
+ 2017-03-29 14:34:47,472 [P9708/D18/T963] INFO  umbraco.content - Save Xml to file...
+ 2017-03-29 14:34:47,477 [P9708/D18/T963] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-29 14:49:29,182 [P9708/D18/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-29 14:49:29,182 [P9708/D18/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-29 14:49:29,188 [P9708/D18/T396] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-29 14:49:29,225 [P9708/D18/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-29 14:49:29,225 [P9708/D18/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-29 14:49:29,225 [P9708/D18/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-29 14:49:29,225 [P9708/D18/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-29 14:49:29,225 [P9708/D18/T318] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-29 14:49:29,225 [P9708/D18/T322] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-29 14:49:29,226 [P9708/D18/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-29 14:49:29,226 [P9708/D18/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-29 14:49:29,226 [P9708/D18/T655] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-29 14:49:29,232 [P9708/D18/T307] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-29 14:49:29,234 [P9708/D18/T307] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-29 14:49:29,234 [P9708/D18/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-29 14:49:29,234 [P9708/D18/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-29 14:49:29,234 [P9708/D18/T405] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-29 14:49:59,274 [P9708/D18/T655] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
