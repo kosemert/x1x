@@ -19,7 +19,7 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "fadad8b3cb804676")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "a98edf66bb56c3ed")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 namespace Umbraco.Web.PublishedContentModels
@@ -691,6 +691,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// hakkimidabuton
+		///</summary>
+		[ImplementPropertyType("hakkimidabuton")]
+		public string Hakkimidabuton
+		{
+			get { return this.GetPropertyValue<string>("hakkimidabuton"); }
+		}
+
+		///<summary>
 		/// hakkimizdaResim
 		///</summary>
 		[ImplementPropertyType("hakkimizdaResim")]
@@ -736,12 +745,48 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// projesurecbaslik
+		///</summary>
+		[ImplementPropertyType("projesurecbaslik")]
+		public string Projesurecbaslik
+		{
+			get { return this.GetPropertyValue<string>("projesurecbaslik"); }
+		}
+
+		///<summary>
+		/// projeyonetimbaslik
+		///</summary>
+		[ImplementPropertyType("projeyonetimbaslik")]
+		public string Projeyonetimbaslik
+		{
+			get { return this.GetPropertyValue<string>("projeyonetimbaslik"); }
+		}
+
+		///<summary>
 		/// Slider Galeri
 		///</summary>
 		[ImplementPropertyType("sliderGallery")]
 		public object SliderGallery
 		{
 			get { return this.GetPropertyValue("sliderGallery"); }
+		}
+
+		///<summary>
+		/// sonprojelerbaslik
+		///</summary>
+		[ImplementPropertyType("sonprojelerbaslik")]
+		public string Sonprojelerbaslik
+		{
+			get { return this.GetPropertyValue<string>("sonprojelerbaslik"); }
+		}
+
+		///<summary>
+		/// tumprojelerbuton
+		///</summary>
+		[ImplementPropertyType("tumprojelerbuton")]
+		public string Tumprojelerbuton
+		{
+			get { return this.GetPropertyValue<string>("tumprojelerbuton"); }
 		}
 
 		///<summary>
@@ -2447,81 +2492,10 @@ namespace Umbraco.Web.PublishedContentModels
 		///<summary>
 		/// Referans Logo Resim
 		///</summary>
-		[ImplementPropertyType("referansLogoResim")]
-		public object ReferansLogoResim
+		[ImplementPropertyType("reflogoresim")]
+		public object Reflogoresim
 		{
-			get { return this.GetPropertyValue("referansLogoResim"); }
-		}
-	}
-
-	/// <summary>Referans Klasörü</summary>
-	[PublishedContentModel("blogFolder1")]
-	public partial class BlogFolder1 : PublishedContentModel, ISeoDocType
-	{
-#pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "blogFolder1";
-		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
-#pragma warning restore 0109
-
-		public BlogFolder1(IPublishedContent content)
-			: base(content)
-		{ }
-
-#pragma warning disable 0109 // new is redundant
-		public new static PublishedContentType GetModelContentType()
-		{
-			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
-		}
-#pragma warning restore 0109
-
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<BlogFolder1, TValue>> selector)
-		{
-			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-
-		///<summary>
-		/// Banner
-		///</summary>
-		[ImplementPropertyType("pageBanner")]
-		public object PageBanner
-		{
-			get { return this.GetPropertyValue("pageBanner"); }
-		}
-
-		///<summary>
-		/// Sayfa Başlığı
-		///</summary>
-		[ImplementPropertyType("pageTitle")]
-		public string PageTitle
-		{
-			get { return this.GetPropertyValue<string>("pageTitle"); }
-		}
-
-		///<summary>
-		/// Tarayıcı Başlığı
-		///</summary>
-		[ImplementPropertyType("browserTitle")]
-		public string BrowserTitle
-		{
-			get { return SeoDocType.GetBrowserTitle(this); }
-		}
-
-		///<summary>
-		/// Meta Tanımlama
-		///</summary>
-		[ImplementPropertyType("metaDescription")]
-		public string MetaDescription
-		{
-			get { return SeoDocType.GetMetaDescription(this); }
-		}
-
-		///<summary>
-		/// Etiketler
-		///</summary>
-		[ImplementPropertyType("metaTags")]
-		public object MetaTags
-		{
-			get { return SeoDocType.GetMetaTags(this); }
+			get { return this.GetPropertyValue("reflogoresim"); }
 		}
 	}
 
@@ -2761,6 +2735,140 @@ namespace Umbraco.Web.PublishedContentModels
 		public string YonetimIkon
 		{
 			get { return this.GetPropertyValue<string>("yonetimIkon"); }
+		}
+	}
+
+	/// <summary>Referanslar</summary>
+	[PublishedContentModel("referanslar")]
+	public partial class Referanslar : PublishedContentModel, IBaseContentDocType, ISeoDocType
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "referanslar";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Referanslar(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Referanslar, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// İçerik
+		///</summary>
+		[ImplementPropertyType("contentText")]
+		public IHtmlString ContentText
+		{
+			get { return BaseContentDocType.GetContentText(this); }
+		}
+
+		///<summary>
+		/// Listelenecek Komşular Ögesi: Sayfanın detayında, sağ tarafta listelenen ögelerin okunacağı root
+		///</summary>
+		[ImplementPropertyType("neighbourWidgetRoot")]
+		public object NeighbourWidgetRoot
+		{
+			get { return BaseContentDocType.GetNeighbourWidgetRoot(this); }
+		}
+
+		///<summary>
+		/// Banner
+		///</summary>
+		[ImplementPropertyType("pageBanner")]
+		public object PageBanner
+		{
+			get { return BaseContentDocType.GetPageBanner(this); }
+		}
+
+		///<summary>
+		/// Sayfa Resmi
+		///</summary>
+		[ImplementPropertyType("pageImage")]
+		public object PageImage
+		{
+			get { return BaseContentDocType.GetPageImage(this); }
+		}
+
+		///<summary>
+		/// Yayınlama Tarihi
+		///</summary>
+		[ImplementPropertyType("pagePublishDate")]
+		public DateTime PagePublishDate
+		{
+			get { return BaseContentDocType.GetPagePublishDate(this); }
+		}
+
+		///<summary>
+		/// Alt başlık
+		///</summary>
+		[ImplementPropertyType("pageSubTitle")]
+		public string PageSubTitle
+		{
+			get { return BaseContentDocType.GetPageSubTitle(this); }
+		}
+
+		///<summary>
+		/// Sayfa Başlığı
+		///</summary>
+		[ImplementPropertyType("pageTitle")]
+		public string PageTitle
+		{
+			get { return BaseContentDocType.GetPageTitle(this); }
+		}
+
+		///<summary>
+		/// Önyazı
+		///</summary>
+		[ImplementPropertyType("previewText")]
+		public string PreviewText
+		{
+			get { return BaseContentDocType.GetPreviewText(this); }
+		}
+
+		///<summary>
+		/// Yönlendirme
+		///</summary>
+		[ImplementPropertyType("umbracoRedirect")]
+		public object UmbracoRedirect
+		{
+			get { return BaseContentDocType.GetUmbracoRedirect(this); }
+		}
+
+		///<summary>
+		/// Tarayıcı Başlığı
+		///</summary>
+		[ImplementPropertyType("browserTitle")]
+		public string BrowserTitle
+		{
+			get { return SeoDocType.GetBrowserTitle(this); }
+		}
+
+		///<summary>
+		/// Meta Tanımlama
+		///</summary>
+		[ImplementPropertyType("metaDescription")]
+		public string MetaDescription
+		{
+			get { return SeoDocType.GetMetaDescription(this); }
+		}
+
+		///<summary>
+		/// Etiketler
+		///</summary>
+		[ImplementPropertyType("metaTags")]
+		public object MetaTags
+		{
+			get { return SeoDocType.GetMetaTags(this); }
 		}
 	}
 

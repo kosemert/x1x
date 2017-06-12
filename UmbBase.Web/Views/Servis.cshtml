@@ -10,21 +10,22 @@
     var services = CurrentPage.Children;
 }
 
-@{
-	var selection = CurrentPage.Site().FirstChild("clientHome").FirstChild("service").Children("serviceDetail").Where("Visible");
-}
+
+
 <section class="section grey-section section-padding-top-bottom ust-bosluk">
 <div class="container">
-	@foreach(var item in selection){
-		
-	
-				<div class="one-third column" data-scroll-reveal="enter left move 200px over 1s after 0.3s">
+	 @if (services.Any())
+            {
+                foreach (var service in services)
+                {
+                    <div class="one-third column" data-scroll-reveal="enter left move 200px over 1s after 0.3s">
 					<div class="services-boxes-2 white-section">
-						<h6>@item.pageTitle</h6>
-						<p>@item.contentText</p>
+						<h6>@service.pageTitle</h6>
+						<p>@service.contentText</p>
 					</div>
 				</div>	
-	}
+                }
+            }
 </div>
 </section>
 

@@ -6,7 +6,11 @@
     var allProjectsText = Common.Translate("Content.Projects.AllProjects");
     var allCategories = Projects.GetAllCategoriesForCurrentLanguage();
     var projects = Projects.GetAllSubProjects(CurrentPage, 12);
+	var proje = CurrentPage.Children;
+	
 }
+
+
 
 <section class="section white-section section-padding-top-bottom">
 		
@@ -32,14 +36,10 @@
 					
 
 					
-
-					
-
-@{
-	var selection = CurrentPage.Site().FirstChild("clientHome").FirstChild("projectFolder").Children("project").Where("Visible");
-}
-
-	@foreach(var item in selection){
+@if (proje.Any())
+            {
+                foreach (var item in proje)
+                {
 		
 		<div class="portfolio-box-3 @item.categories">
 						<a href="@item.Url" class="animsition-link"><div class="mask-left">&#xf0c1;</div></a>
@@ -49,7 +49,8 @@
 						<div class="mask-2"></div>
 					</div>
 		
-	}
+	} 
+				 }
 
 
 					

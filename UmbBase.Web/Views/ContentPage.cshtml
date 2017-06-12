@@ -5,6 +5,7 @@
 
 @{
     Layout = "Master.cshtml";
+	var kurucu = CurrentPage.Children;
 }
 
 <div class="container">
@@ -32,17 +33,15 @@
 						<h3>@CurrentPage.pageSubTitle</h3>
 					</div>
 				</div>
-							
-				
-				
-				
-@{
-	var selection = CurrentPage.Site().FirstChild("clientHome").FirstChild("clientContentPage").Children("hakkimizdaKurucularimiz").Where("Visible");
-}
-
-	@foreach(var item in selection){
-		
-		<div class="one-third column" data-scroll-reveal="enter left move 200px over 1s after 0.3s">
+						
+						
+						
+						
+@if (kurucu.Any())
+            {
+                foreach (var item in kurucu)
+                {
+                    <div class="one-third column" data-scroll-reveal="enter left move 200px over 1s after 0.3s">
 					<div class="team-box-1 full-image-box">
 						<img src="@item.kurucuresim"  alt="">
 						<div class="team-box-1-text-in white-section">
@@ -61,15 +60,10 @@
 							</div>
 						</div>
 					</div>
-				</div>
-
-		
-	
-	}
-
-
-					
-									
+				</div>	
+                }
+            }						
+								
 						
 			</div>
 		</section>	

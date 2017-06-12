@@ -1,27 +1,26 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     Layout = "Master.cshtml";
+	
 }
-
 
 <section class="section white-section section-padding-top">
-	@{
-	var selection = CurrentPage.Site().FirstChild("clientHome").FirstChild("blogFolder1").Children("referansLogo").Where("Visible");
+@{
+	var selection = CurrentPage.Site().FirstChild("clientHome").FirstChild("referanslar").Children("referansLogo").Where("Visible");
 }
-	
-			<div id="projects-grid">
-		 @foreach(var item in selection){
-				<a class="expander" href="javascript:void(0)">
+<div id="projects-grid">
+	@foreach(var item in selection){
+		<a class="expander" href="javascript:void(0)">
 					<div class="portfolio-box-1 photography">
 						<div class="mask-1"></div>
-						<img src="@item.referansLogoResim" alt="@item.referansLogoBaslik">
+						<img src="@item.reflogoresim" alt="@item.referansLogoBaslik">
 						<h6>@item.referansLogoBaslik</h6>
 					</div>
 				</a>
+	}
 
-							
- }
 			</div>
+			
 		</section>
 							
 							
@@ -33,6 +32,3 @@
 <script type="text/javascript" src="/scripts/isotope.js"></script>
 	
 }
-							
-
-

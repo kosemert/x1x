@@ -9,30 +9,10 @@
     var aboutPage = CurrentPage.aboutPage != null ? Umbraco.Content(CurrentPage.aboutPage) : null;
     var projectPage = CurrentPage.projeLink != null ? Umbraco.Content(CurrentPage.projeLink) : null;
 	var icon = "&#xf085;";
-    // Projects
-    dynamic projectCollection = null;
-    var projects = new List<dynamic>(CurrentPage.projectHighlites.ToString().Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries));
-    if (projects.Any())
-    {
-        projectCollection = Umbraco.Content(projects.Take(12));
-    }
-    var allProjectsText = Common.Translate("Content.Projects.AllProjects");
-
-
-    var allCategories = new HashSet<string>();
-    foreach (var project in projectCollection)
-    {
-        var projectCategories = Umbraco.Content(project.categories.ToString().Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries));
-        foreach (var cat in projectCategories)
-        {
-            if (!allCategories.Contains(cat.categoryName))
-            {
-                allCategories.Add(cat.categoryName);
-            }
-        }
-    }
-
 }
+
+
+
 
 
 @if (carousel != null && carousel.Children.Any())
@@ -85,7 +65,7 @@
 				<div class="sixteen columns">
 					<div class="button-shortcodes-wrap">
 					<center>
-					<a href="@aboutPage.Url"><div class="button-shortcodes text-size-1 text-padding-1 version-2"><span>&#xf18e;</span> Hakkımızda</div></a>
+					<a href="@aboutPage.Url"><div class="button-shortcodes text-size-1 text-padding-1 version-2"><span>&#xf18e;</span> @Umbraco.Field("hakkimidabuton")</div></a>
 					</center>
 						
 					</div>
@@ -98,14 +78,14 @@
 		<section class="section grey-section section-padding-top-bottom">
 			<div class="container">
 				
-				
-
+    
 
 @{
-	var hizmetdino = CurrentPage.Site().FirstChild("clientHome").FirstChild("anasayfaDinamikIcerik").Children("anasayfaHizmetler").Where("Visible");
+	var hizmetler = CurrentPage.AncestorOrSelf(3).Descendants()
+                   .Where("DocumentTypeAlias == \"anasayfaHizmetler\"").OrderBy("CreateDate");
 }
 
-	@foreach(var item in hizmetdino){
+	@foreach(var item in hizmetler){
 		
 	<div class="one-third column" data-scroll-reveal="enter left move 200px over 1s after 0.3s">
 					<div class="services-boxes-1">
@@ -116,6 +96,7 @@
 				</div>	
 		 
 	}
+
 
 			</div>
 		</section>
@@ -128,7 +109,7 @@
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="section-title">
-						<h3>Proje Süreci</h3>
+						<h3>@Umbraco.Field("projesurecbaslik")</h3>
 						<div class="subtitle"><span class="subtitle-written"></span></div>
 					</div>
 				</div>
@@ -137,7 +118,8 @@
 
 
 @{
-	var projesurec = CurrentPage.Site().FirstChild("clientHome").FirstChild("anasayfaDinamikIcerik").Children("anasayfaProjeSureci").Where("Visible");
+	var projesurec = CurrentPage.AncestorOrSelf(3).Descendants()
+                   .Where("DocumentTypeAlias == \"anasayfaProjeSureci\"").OrderBy("CreateDate");
 }
 
 	@foreach(var proje in projesurec){
@@ -248,14 +230,15 @@
 				
 				<div class="eleven columns">
 					<div class="section-title left">
-						<h3>Proje Yönetimi</h3>
+						<h3>@Umbraco.Field("projeyonetimbaslik")</h3>
 						<div class="subtitle left"><span class="subtitle-written"></span></div>
 					</div>
 
 	
 						
 @{
-	var yonetim = CurrentPage.Site().FirstChild("clientHome").FirstChild("anasayfaDinamikIcerik").Children("anasayfaProjeYonetimi").Where("Visible");
+	var yonetim = CurrentPage.AncestorOrSelf(3).Descendants()
+                   .Where("DocumentTypeAlias == \"anasayfaProjeYonetimi\"").OrderBy("CreateDate");
 }
 
 	@foreach(var item in yonetim){
@@ -281,31 +264,34 @@
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="section-title">
-						<h3>Son Projeler</h3>
+						<h3>@Umbraco.Field("sonprojelerbaslik")</h3>
 						<div class="subtitle"><span class="subtitle-written"></span></div>
 					</div>
 				</div>
 			</div>
 			<div class="portfolio-wrap-1">
 
-				
-				
-@{
-	var selection = CurrentPage.Site().FirstChild("clientHome").FirstChild("projectFolder").Children("project").Where("Visible").OrderBy("Id desc");
+
+			
+ @{
+	 var sonprojeler = CurrentPage.AncestorOrSelf(3).Descendants()
+                   .Where("DocumentTypeAlias == \"project\"").OrderBy("Id desc");
+
+
 }
 
-	@foreach(var item in selection.Take(12)){
+    @foreach(var item in sonprojeler.Take(12)){
 
 
-				<a href="@item.Url" class="animsition-link">
-					<div class="portfolio-box-1">
-						<div class="mask-1"></div>
-						<img src="@Umbraco.Media(@item.pageImage.ToString()).Url" alt="@item.pageTitle">
-						<h6>@item.pageTitle</h6>
-					</div>
-				</a>
+                <a href="@item.Url" class="animsition-link">
+                    <div class="portfolio-box-1">
+                        <div class="mask-1"></div>
+                        <img src="@Umbraco.Media(@item.pageImage.ToString()).Url" alt="@item.pageTitle">
+                        <h6>@item.pageTitle</h6>
+                    </div>
+                </a>
 
-	}
+    }
 				
 				
 			
@@ -314,7 +300,7 @@
 			<div class="call-to-action-1">
 				<div class="action-top-1"></div>
 				<h5></h5>
-				<a href="@projectPage.Url" class="button-1 animsition-link">Tüm Projeler</a>
+				<a href="@projectPage.Url" class="button-1 animsition-link">@Umbraco.Field("tumprojelerbuton")</a>
 			</div>
 		</section>	
 	
@@ -327,17 +313,16 @@
 				<div class="sixteen columns">
 					<ul id="owl-logos" class="owl-carousel owl-theme">			
 @{
-	var selection1 = CurrentPage.Site().FirstChild("clientHome").FirstChild("blogFolder1").Children("referansLogo").Where("Visible");
+	var selection1 = CurrentPage.Site().FirstChild("clientHome").FirstChild("referanslar").Children("referansLogo").Where("Visible");
 }
 
 
 	@foreach(var item in selection1){
-		<li><img src="@item.referansLogoResim" alt="@item.referansLogoBaslik" /></li>
+		<li><img src="@item.reflogoresim" alt="@item.referansLogoBaslik" /></li>
 			
 	
 	}
 
- 
 
 
 					</ul>
