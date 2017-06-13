@@ -1,24 +1,28 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.ProjectFolder>
 @using ContentModels = Umbraco.Web.PublishedContentModels;
-
+@using UmbBase.Web.Business
+@using Umbraco.Web.Models
+@using System.Linq
 @{
     Layout = "Master.cshtml";
     var allProjectsText = Common.Translate("Content.Projects.AllProjects");
     var allCategories = Projects.GetAllCategoriesForCurrentLanguage();
     var projects = Projects.GetAllSubProjects(CurrentPage, 12);
 	var proje = CurrentPage.Children;
-	
-}
-
+    var kategori = CurrentPage._kategorigetir != null ? Umbraco.Content(CurrentPage._kategorigetir) : null;
+}	
 
 
 <section class="section white-section section-padding-top-bottom">
-		
+
+					@if (kategori != null && kategori.Children.Any())
+{	
 			<div class="container">
 				<div class="sixteen columns">
 					<div id="portfolio-filter">
 						<ul id="filter">
-					 @foreach (var category in allCategories)
+
+					 @foreach (var category in kategori.Children)
                            {
 							
 							<li><a href="#" data-filter=".@category.Id" title="">@category.categoryName</a></li>
@@ -28,7 +32,7 @@
 					</div>
 				</div>
 			</div>
-			
+			}
 			<div class="clear"></div>
 			
 			<div class="projects-wrapper">

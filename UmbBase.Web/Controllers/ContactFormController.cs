@@ -15,16 +15,16 @@ namespace UmbBase.Web.Controllers
     {
         [ChildActionOnly]
         public ActionResult SendContactForm()
-        {            
+        {
             return View(new ContactFormViewModel());
         }
 
-        [HttpPost]        
-        [CaptchaValidator(ErrorMessage = "ContactForm.Captcha.Error",RequiredMessage = "ContactForm.Captcha.Required")]
+        [HttpPost]
+        [CaptchaValidator(ErrorMessage = "ContactForm.Captcha.Error", RequiredMessage = "ContactForm.Captcha.Required")]
         [NotChildAction]
         public ActionResult SendContactForm(ContactFormViewModel model)
         {
-            
+
             var page = (CurrentPage);// as ContactFormDocType);
             if (ModelState.IsValid)
             {
@@ -53,10 +53,10 @@ namespace UmbBase.Web.Controllers
                 {
                     message.Bcc.Add(new MailAddress(addr));
                 }
-                emailClient.Send(message);                
+                emailClient.Send(message);
                 if (page != null)
                 {
-                    return Redirect(page.Url+"?success");
+                    return Redirect(page.Url + "?success");
                 }
             }
             var index = ModelState.Keys.ToList().IndexOf("ReCaptcha");
@@ -77,7 +77,7 @@ namespace UmbBase.Web.Controllers
                     foreach (var msg in captchaMessages)
                     {
                         ModelState["ReCaptcha"].Errors.Add(msg);
-                    }                    
+                    }
                 }
             }
             return CurrentUmbracoPage();

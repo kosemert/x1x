@@ -19,7 +19,7 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "a98edf66bb56c3ed")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "6cf0c346f8d7e03b")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 namespace Umbraco.Web.PublishedContentModels
@@ -715,6 +715,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public string HomePageTitle
 		{
 			get { return this.GetPropertyValue<string>("homePageTitle"); }
+		}
+
+		///<summary>
+		/// Kategori
+		///</summary>
+		[ImplementPropertyType("kategorigetir")]
+		public object Kategorigetir
+		{
+			get { return this.GetPropertyValue("kategorigetir"); }
 		}
 
 		///<summary>
