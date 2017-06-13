@@ -6081,19 +6081,19 @@ a.quote-big-post-single h5:hover{
 /* #Contact
 ================================================== */ 
 
-#ajax-form {
+#ContactForm {
 	width: 100%;
 	font-size: 10px;
 	line-height:14px;
 	color:#101010;
 	margin:0 auto;
 }
-#ajax-form label {
+#ContactForm label {
 	display: block;
 	font-size: 14px;
 	line-height:30px;
 }
-#ajax-form input{
+#ContactForm input{
 	width: 100%;
 	border:none;
 	font-weight:400;
@@ -6104,7 +6104,7 @@ a.quote-big-post-single h5:hover{
 	padding-bottom: 10px;
 	background:transparent;
 }
-#ajax-form textarea {
+#ContactForm textarea {
 	width:100%;
 	font-weight:400;
 	text-transform:uppercase;
@@ -6140,20 +6140,20 @@ a.quote-big-post-single h5:hover{
 	text-align:center;
 	padding-top:10px;
  }
-#ajax-form textarea:active,
-#ajax-form input:active {	
+#ContactForm textarea:active,
+#ContactForm input:active {	
 	color: #101010;
 }
-#ajax-form textarea:active,
-#ajax-form input:hover {	
+#ContactForm textarea:active,
+#ContactForm input:hover {	
 	color: #101010;
 }
-#ajax-form textarea:focus,
-#ajax-form input:focus {	 
+#ContactForm textarea:focus,
+#ContactForm input:focus {	 
     outline: none;
 }
-#ajax-form textarea,
-#ajax-form input {	
+#ContactForm textarea,
+#ContactForm input {	
 	border-bottom:2px solid #313131;
 	color: #101010;
 }
